@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>q2_demux : summarize</title>
+    <link rel="stylesheet" href="./q2templateassets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./q2templateassets/css/normalize.css"/>
+    <script src="./q2templateassets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="./q2templateassets/js/child.js"></script>
+    
+    
+  </head>
+  <body>
+    <div class="container-fluid">
+        
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Demultiplexed sequence counts summary</h1>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>forward reads</th>
+      <th>reverse reads</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Minimum</th>
+      <td>92398</td>
+      <td>92398</td>
+    </tr>
+    <tr>
+      <th>Median</th>
+      <td>167547.0</td>
+      <td>167547.0</td>
+    </tr>
+    <tr>
+      <th>Mean</th>
+      <td>160115.583333</td>
+      <td>160115.583333</td>
+    </tr>
+    <tr>
+      <th>Maximum</th>
+      <td>230614</td>
+      <td>230614</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>9606935</td>
+      <td>9606935</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</div>
+
+<div class="row">
+    
+        <div class="col-lg-6">
+            <h3>Forward Reads Frequency Histogram</h3>
+            <div class="text-center">
+                
+                    <a href="demultiplex-summary-forward.pdf">
+                        <img src="demultiplex-summary-forward.png">
+                        <p>Download as PDF</p>
+                    </a>
+                
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h3>Reverse Reads Frequency Histogram</h3>
+            <div class="text-center">
+                
+                    <a href="demultiplex-summary-reverse.pdf">
+                        <img src="demultiplex-summary-reverse.png">
+                        <p>Download as PDF</p>
+                    </a>
+                
+            </div>
+        </div>
+    
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1>Per-sample sequence counts</h1>
+        <h4>
+            Total Samples:&nbsp;
+            
+                
+                    60 (forward)&nbsp;
+                
+            
+                
+                    60 (reverse)&nbsp;
+                
+            
+        </h4>
+        <table border="0" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>forward sequence count</th>
+      <th>reverse sequence count</th>
+    </tr>
+    <tr>
+      <th>sample ID</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>SRR32802187</th>
+      <td>200432</td>
+      <td>200432</td>
+    </tr>
+    <tr>
+      <th>SRR32802188</th>
+      <td>134920</td>
+      <td>134920</td>
+    </tr>
+    <tr>
+      <th>SRR32802189</th>
+      <td>113453</td>
+      <td>113453</td>
+    </tr>
+    <tr>
+      <th>SRR32802190</th>
+      <td>150204</td>
+      <td>150204</td>
+    </tr>
+    <tr>
+      <th>SRR32802191</th>
+      <td>173828</td>
+      <td>173828</td>
+    </tr>
+    <tr>
+      <th>SRR32802192</th>
+      <td>195820</td>
+      <td>195820</td>
+    </tr>
+    <tr>
+      <th>SRR32802193</th>
+      <td>174394</td>
+      <td>174394</td>
+    </tr>
+    <tr>
+      <th>SRR32802194</th>
+      <td>198790</td>
+      <td>198790</td>
+    </tr>
+    <tr>
+      <th>SRR32802195</th>
+      <td>216390</td>
+      <td>216390</td>
+    </tr>
+    <tr>
+      <th>SRR32802196</th>
+      <td>169024</td>
+      <td>169024</td>
+    </tr>
+    <tr>
+      <th>SRR32802197</th>
+      <td>142746</td>
+      <td>142746</td>
+    </tr>
+    <tr>
+      <th>SRR32802198</th>
+      <td>192149</td>
+      <td>192149</td>
+    </tr>
+    <tr>
+      <th>SRR32802199</th>
+      <td>171502</td>
+      <td>171502</td>
+    </tr>
+    <tr>
+      <th>SRR32802200</th>
+      <td>176007</td>
+      <td>176007</td>
+    </tr>
+    <tr>
+      <th>SRR32802201</th>
+      <td>92398</td>
+      <td>92398</td>
+    </tr>
+    <tr>
+      <th>SRR32802202</th>
+      <td>94603</td>
+      <td>94603</td>
+    </tr>
+    <tr>
+      <th>SRR32802203</th>
+      <td>107009</td>
+      <td>107009</td>
+    </tr>
+    <tr>
+      <th>SRR32802204</th>
+      <td>147845</td>
+      <td>147845</td>
+    </tr>
+    <tr>
+      <th>SRR32802205</th>
+      <td>114889</td>
+      <td>114889</td>
+    </tr>
+    <tr>
+      <th>SRR32802206</th>
+      <td>113934</td>
+      <td>113934</td>
+    </tr>
+    <tr>
+      <th>SRR32802207</th>
+      <td>126541</td>
+      <td>126541</td>
+    </tr>
+    <tr>
+      <th>SRR32802208</th>
+      <td>207105</td>
+      <td>207105</td>
+    </tr>
+    <tr>
+      <th>SRR32802209</th>
+      <td>208621</td>
+      <td>208621</td>
+    </tr>
+    <tr>
+      <th>SRR32802210</th>
+      <td>192272</td>
+      <td>192272</td>
+    </tr>
+    <tr>
+      <th>SRR32802211</th>
+      <td>155828</td>
+      <td>155828</td>
+    </tr>
+    <tr>
+      <th>SRR32802212</th>
+      <td>159646</td>
+      <td>159646</td>
+    </tr>
+    <tr>
+      <th>SRR32802213</th>
+      <td>179664</td>
+      <td>179664</td>
+    </tr>
+    <tr>
+      <th>SRR32802214</th>
+      <td>144568</td>
+      <td>144568</td>
+    </tr>
+    <tr>
+      <th>SRR32802215</th>
+      <td>142812</td>
+      <td>142812</td>
+    </tr>
+    <tr>
+      <th>SRR32802216</th>
+      <td>180570</td>
+      <td>180570</td>
+    </tr>
+    <tr>
+      <th>SRR32802217</th>
+      <td>126186</td>
+      <td>126186</td>
+    </tr>
+    <tr>
+      <th>SRR32802218</th>
+      <td>165504</td>
+      <td>165504</td>
+    </tr>
+    <tr>
+      <th>SRR32802219</th>
+      <td>94331</td>
+      <td>94331</td>
+    </tr>
+    <tr>
+      <th>SRR32802220</th>
+      <td>218948</td>
+      <td>218948</td>
+    </tr>
+    <tr>
+      <th>SRR32802221</th>
+      <td>105797</td>
+      <td>105797</td>
+    </tr>
+    <tr>
+      <th>SRR32802222</th>
+      <td>136533</td>
+      <td>136533</td>
+    </tr>
+    <tr>
+      <th>SRR32802223</th>
+      <td>123715</td>
+      <td>123715</td>
+    </tr>
+    <tr>
+      <th>SRR32802224</th>
+      <td>170665</td>
+      <td>170665</td>
+    </tr>
+    <tr>
+      <th>SRR32802225</th>
+      <td>128247</td>
+      <td>128247</td>
+    </tr>
+    <tr>
+      <th>SRR32802226</th>
+      <td>157218</td>
+      <td>157218</td>
+    </tr>
+    <tr>
+      <th>SRR32802227</th>
+      <td>93469</td>
+      <td>93469</td>
+    </tr>
+    <tr>
+      <th>SRR32802228</th>
+      <td>121702</td>
+      <td>121702</td>
+    </tr>
+    <tr>
+      <th>SRR32802229</th>
+      <td>167231</td>
+      <td>167231</td>
+    </tr>
+    <tr>
+      <th>SRR32802230</th>
+      <td>158826</td>
+      <td>158826</td>
+    </tr>
+    <tr>
+      <th>SRR32802231</th>
+      <td>204278</td>
+      <td>204278</td>
+    </tr>
+    <tr>
+      <th>SRR32802232</th>
+      <td>118935</td>
+      <td>118935</td>
+    </tr>
+    <tr>
+      <th>SRR32802233</th>
+      <td>178510</td>
+      <td>178510</td>
+    </tr>
+    <tr>
+      <th>SRR32802234</th>
+      <td>136254</td>
+      <td>136254</td>
+    </tr>
+    <tr>
+      <th>SRR32802235</th>
+      <td>110032</td>
+      <td>110032</td>
+    </tr>
+    <tr>
+      <th>SRR32802236</th>
+      <td>167863</td>
+      <td>167863</td>
+    </tr>
+    <tr>
+      <th>SRR32802237</th>
+      <td>173482</td>
+      <td>173482</td>
+    </tr>
+    <tr>
+      <th>SRR32802238</th>
+      <td>188660</td>
+      <td>188660</td>
+    </tr>
+    <tr>
+      <th>SRR32802239</th>
+      <td>184499</td>
+      <td>184499</td>
+    </tr>
+    <tr>
+      <th>SRR32802240</th>
+      <td>170429</td>
+      <td>170429</td>
+    </tr>
+    <tr>
+      <th>SRR32802241</th>
+      <td>208624</td>
+      <td>208624</td>
+    </tr>
+    <tr>
+      <th>SRR32802242</th>
+      <td>198683</td>
+      <td>198683</td>
+    </tr>
+    <tr>
+      <th>SRR32802243</th>
+      <td>181044</td>
+      <td>181044</td>
+    </tr>
+    <tr>
+      <th>SRR32802244</th>
+      <td>180564</td>
+      <td>180564</td>
+    </tr>
+    <tr>
+      <th>SRR32802245</th>
+      <td>230614</td>
+      <td>230614</td>
+    </tr>
+    <tr>
+      <th>SRR32802246</th>
+      <td>228128</td>
+      <td>228128</td>
+    </tr>
+  </tbody>
+</table>
+        <a href="per-sample-fastq-counts.tsv">Download as TSV</a>
+    </div>
+</div>
+
+    </div>
+    
+    
+  </body>
+</html>

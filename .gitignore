@@ -1,0 +1,22 @@
+# Raw sequencing data
+data/raw/*.fastq.gz
+data/raw/*.fastq
+
+# Trimmed fastq files
+qiime2/demux/trimmed_export/*.fastq.gz
+
+# SILVA classifier (too large)
+qiime2/taxonomy/silva-138-99-nb-classifier.qza
+
+# Large QIIME2 artifacts (keep .qzv visualizations)
+qiime2/demux/paired_end_demux.qza
+qiime2/demux/trimmed_demux.qza
+
+# R
+.Rhistory
+.RData
+*.Rproj
+
+# System
+.DS_Store
+Thumbs.db

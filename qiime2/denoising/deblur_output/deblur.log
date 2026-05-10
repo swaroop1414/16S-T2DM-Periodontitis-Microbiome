@@ -1,0 +1,1170 @@
+INFO(140325113427776)2026-04-03 04:52:21,417:*************************
+INFO(140325113427776)2026-04-03 04:52:21,417:deblurring started
+WARNING(140325113427776)2026-04-03 04:52:21,417:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim
+WARNING(140325113427776)2026-04-03 04:52:21,417:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 4, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(140325113427776)2026-04-03 04:52:21,417:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140325113427776)2026-04-03 04:52:21,417:deblur main program started
+INFO(140325113427776)2026-04-03 04:52:21,419:processing directory /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim
+INFO(140325113427776)2026-04-03 04:52:21,421:building negative db sortmerna index files
+INFO(140325113427776)2026-04-03 04:52:21,421:build_index_sortmerna files ['/home/swaroop/miniconda/envs/qiime2/lib/python3.9/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140325113427776)2026-04-03 04:52:21,484:building positive db sortmerna index files
+INFO(140325113427776)2026-04-03 04:52:21,484:build_index_sortmerna files ['/home/swaroop/miniconda/envs/qiime2/lib/python3.9/site-packages/deblur/support_files/88_otus.fasta'] to dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140325113427776)2026-04-03 04:53:13,842:parallel processing per sample fasta files
+INFO(140325113427776)2026-04-03 04:53:13,842:parallel deblur started for 60 inputs
+INFO(123513713792832)2026-04-03 04:53:15,372:*************************
+INFO(123513713792832)2026-04-03 04:53:15,373:deblurring started
+WARNING(123513713792832)2026-04-03 04:53:15,374:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802194_20_L001_R1_001.fastq.gz
+WARNING(123513713792832)2026-04-03 04:53:15,375:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802194_20_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123513713792832)2026-04-03 04:53:15,375:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123513713792832)2026-04-03 04:53:15,375:deblur worker thread started
+INFO(123513713792832)2026-04-03 04:53:15,375:processing per sample fasta files
+INFO(123513713792832)2026-04-03 04:53:15,375:--------------------------------------------------------
+INFO(123513713792832)2026-04-03 04:53:15,375:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802194_20_L001_R1_001.fastq.gz
+INFO(130801120520000)2026-04-03 04:53:15,404:*************************
+INFO(130801120520000)2026-04-03 04:53:15,404:deblurring started
+WARNING(130801120520000)2026-04-03 04:53:15,405:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802242_59_L001_R1_001.fastq.gz
+WARNING(130801120520000)2026-04-03 04:53:15,405:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802242_59_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130801120520000)2026-04-03 04:53:15,406:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130801120520000)2026-04-03 04:53:15,406:deblur worker thread started
+INFO(130801120520000)2026-04-03 04:53:15,406:processing per sample fasta files
+INFO(130801120520000)2026-04-03 04:53:15,406:--------------------------------------------------------
+INFO(130801120520000)2026-04-03 04:53:15,406:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802242_59_L001_R1_001.fastq.gz
+INFO(133754874865472)2026-04-03 04:53:15,484:*************************
+INFO(133754874865472)2026-04-03 04:53:15,484:deblurring started
+WARNING(133754874865472)2026-04-03 04:53:15,485:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802198_48_L001_R1_001.fastq.gz
+WARNING(133754874865472)2026-04-03 04:53:15,486:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802198_48_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133754874865472)2026-04-03 04:53:15,486:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133754874865472)2026-04-03 04:53:15,486:deblur worker thread started
+INFO(133754874865472)2026-04-03 04:53:15,486:processing per sample fasta files
+INFO(133754874865472)2026-04-03 04:53:15,486:--------------------------------------------------------
+INFO(133754874865472)2026-04-03 04:53:15,486:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802198_48_L001_R1_001.fastq.gz
+INFO(138337561220928)2026-04-03 04:53:15,511:*************************
+INFO(138337561220928)2026-04-03 04:53:15,511:deblurring started
+WARNING(138337561220928)2026-04-03 04:53:15,512:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802201_53_L001_R1_001.fastq.gz
+WARNING(138337561220928)2026-04-03 04:53:15,512:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802201_53_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138337561220928)2026-04-03 04:53:15,512:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138337561220928)2026-04-03 04:53:15,512:deblur worker thread started
+INFO(138337561220928)2026-04-03 04:53:15,512:processing per sample fasta files
+INFO(138337561220928)2026-04-03 04:53:15,512:--------------------------------------------------------
+INFO(138337561220928)2026-04-03 04:53:15,512:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802201_53_L001_R1_001.fastq.gz
+INFO(138337561220928)2026-04-03 04:53:46,721:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802201_53_L001_R1_001.fastq.gz.trim
+INFO(138337561220928)2026-04-03 04:53:47,118:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802201_53_L001_R1_001.fastq.gz.trim.derep
+INFO(138337561220928)2026-04-03 04:53:48,161:total sequences 3245, passing sequences 3245, failing sequences 0
+INFO(138337561220928)2026-04-03 04:53:48,161:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802201_53_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138337561220928)2026-04-03 04:54:14,983:deblurring 3245 sequences
+INFO(133754874865472)2026-04-03 04:54:15,480:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802198_48_L001_R1_001.fastq.gz.trim
+INFO(133754874865472)2026-04-03 04:54:15,984:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802198_48_L001_R1_001.fastq.gz.trim.derep
+INFO(133754874865472)2026-04-03 04:54:16,984:total sequences 6075, passing sequences 6075, failing sequences 0
+INFO(133754874865472)2026-04-03 04:54:16,984:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802198_48_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130801120520000)2026-04-03 04:54:17,389:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802242_59_L001_R1_001.fastq.gz.trim
+INFO(123513713792832)2026-04-03 04:54:17,583:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802194_20_L001_R1_001.fastq.gz.trim
+INFO(130801120520000)2026-04-03 04:54:17,912:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802242_59_L001_R1_001.fastq.gz.trim.derep
+INFO(123513713792832)2026-04-03 04:54:18,046:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802194_20_L001_R1_001.fastq.gz.trim.derep
+INFO(138337561220928)2026-04-03 04:54:18,593:436 unique sequences left following deblurring
+INFO(138337561220928)2026-04-03 04:54:18,600:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802201_53_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(130801120520000)2026-04-03 04:54:18,911:total sequences 6140, passing sequences 6140, failing sequences 0
+INFO(130801120520000)2026-04-03 04:54:18,911:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802242_59_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123513713792832)2026-04-03 04:54:18,932:total sequences 6386, passing sequences 6386, failing sequences 0
+INFO(123513713792832)2026-04-03 04:54:18,932:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802194_20_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138337561220928)2026-04-03 04:54:19,064:finished processing file
+INFO(138337561220928)2026-04-03 04:54:19,065:finished processing per sample fasta files
+INFO(138337561220928)2026-04-03 04:54:19,065:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802201_53_L001_R1_001.fastq.gz finished
+INFO(131058520106816)2026-04-03 04:54:20,584:*************************
+INFO(131058520106816)2026-04-03 04:54:20,584:deblurring started
+WARNING(131058520106816)2026-04-03 04:54:20,585:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802193_10_L001_R1_001.fastq.gz
+WARNING(131058520106816)2026-04-03 04:54:20,585:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802193_10_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131058520106816)2026-04-03 04:54:20,585:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131058520106816)2026-04-03 04:54:20,585:deblur worker thread started
+INFO(131058520106816)2026-04-03 04:54:20,585:processing per sample fasta files
+INFO(131058520106816)2026-04-03 04:54:20,585:--------------------------------------------------------
+INFO(131058520106816)2026-04-03 04:54:20,585:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802193_10_L001_R1_001.fastq.gz
+INFO(131058520106816)2026-04-03 04:55:07,199:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802193_10_L001_R1_001.fastq.gz.trim
+INFO(131058520106816)2026-04-03 04:55:07,639:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802193_10_L001_R1_001.fastq.gz.trim.derep
+INFO(131058520106816)2026-04-03 04:55:08,520:total sequences 5608, passing sequences 5608, failing sequences 0
+INFO(131058520106816)2026-04-03 04:55:08,520:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802193_10_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(133754874865472)2026-04-03 04:55:36,906:deblurring 6075 sequences
+INFO(130801120520000)2026-04-03 04:55:40,571:deblurring 6140 sequences
+INFO(133754874865472)2026-04-03 04:55:44,827:497 unique sequences left following deblurring
+INFO(133754874865472)2026-04-03 04:55:44,834:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802198_48_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(133754874865472)2026-04-03 04:55:45,628:finished processing file
+INFO(133754874865472)2026-04-03 04:55:45,631:finished processing per sample fasta files
+INFO(133754874865472)2026-04-03 04:55:45,631:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802198_48_L001_R1_001.fastq.gz finished
+INFO(130801120520000)2026-04-03 04:55:46,167:336 unique sequences left following deblurring
+INFO(130801120520000)2026-04-03 04:55:46,174:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802242_59_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(123513713792832)2026-04-03 04:55:46,679:deblurring 6386 sequences
+INFO(130801120520000)2026-04-03 04:55:46,708:finished processing file
+INFO(130801120520000)2026-04-03 04:55:46,711:finished processing per sample fasta files
+INFO(130801120520000)2026-04-03 04:55:46,711:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802242_59_L001_R1_001.fastq.gz finished
+INFO(134760412952384)2026-04-03 04:55:47,648:*************************
+INFO(134760412952384)2026-04-03 04:55:47,648:deblurring started
+WARNING(134760412952384)2026-04-03 04:55:47,648:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802195_55_L001_R1_001.fastq.gz
+WARNING(134760412952384)2026-04-03 04:55:47,648:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802195_55_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134760412952384)2026-04-03 04:55:47,649:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134760412952384)2026-04-03 04:55:47,649:deblur worker thread started
+INFO(134760412952384)2026-04-03 04:55:47,649:processing per sample fasta files
+INFO(134760412952384)2026-04-03 04:55:47,649:--------------------------------------------------------
+INFO(134760412952384)2026-04-03 04:55:47,649:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802195_55_L001_R1_001.fastq.gz
+INFO(126204499904320)2026-04-03 04:55:48,615:*************************
+INFO(126204499904320)2026-04-03 04:55:48,616:deblurring started
+WARNING(126204499904320)2026-04-03 04:55:48,616:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802218_38_L001_R1_001.fastq.gz
+WARNING(126204499904320)2026-04-03 04:55:48,617:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802218_38_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(126204499904320)2026-04-03 04:55:48,618:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(126204499904320)2026-04-03 04:55:48,618:deblur worker thread started
+INFO(126204499904320)2026-04-03 04:55:48,619:processing per sample fasta files
+INFO(126204499904320)2026-04-03 04:55:48,619:--------------------------------------------------------
+INFO(126204499904320)2026-04-03 04:55:48,619:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802218_38_L001_R1_001.fastq.gz
+INFO(123513713792832)2026-04-03 04:55:59,561:648 unique sequences left following deblurring
+INFO(123513713792832)2026-04-03 04:55:59,573:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802194_20_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(123513713792832)2026-04-03 04:56:00,487:finished processing file
+INFO(123513713792832)2026-04-03 04:56:00,490:finished processing per sample fasta files
+INFO(123513713792832)2026-04-03 04:56:00,490:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802194_20_L001_R1_001.fastq.gz finished
+INFO(137788731463488)2026-04-03 04:56:02,327:*************************
+INFO(137788731463488)2026-04-03 04:56:02,327:deblurring started
+WARNING(137788731463488)2026-04-03 04:56:02,327:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802191_1_L001_R1_001.fastq.gz
+WARNING(137788731463488)2026-04-03 04:56:02,327:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802191_1_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(137788731463488)2026-04-03 04:56:02,328:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137788731463488)2026-04-03 04:56:02,328:deblur worker thread started
+INFO(137788731463488)2026-04-03 04:56:02,328:processing per sample fasta files
+INFO(137788731463488)2026-04-03 04:56:02,328:--------------------------------------------------------
+INFO(137788731463488)2026-04-03 04:56:02,328:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802191_1_L001_R1_001.fastq.gz
+INFO(131058520106816)2026-04-03 04:56:23,523:deblurring 5608 sequences
+INFO(131058520106816)2026-04-03 04:56:32,712:587 unique sequences left following deblurring
+INFO(131058520106816)2026-04-03 04:56:32,732:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802193_10_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(131058520106816)2026-04-03 04:56:33,571:finished processing file
+INFO(131058520106816)2026-04-03 04:56:33,573:finished processing per sample fasta files
+INFO(131058520106816)2026-04-03 04:56:33,573:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802193_10_L001_R1_001.fastq.gz finished
+INFO(132294582388544)2026-04-03 04:56:35,252:*************************
+INFO(132294582388544)2026-04-03 04:56:35,252:deblurring started
+WARNING(132294582388544)2026-04-03 04:56:35,252:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802241_39_L001_R1_001.fastq.gz
+WARNING(132294582388544)2026-04-03 04:56:35,252:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802241_39_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(132294582388544)2026-04-03 04:56:35,252:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(132294582388544)2026-04-03 04:56:35,252:deblur worker thread started
+INFO(132294582388544)2026-04-03 04:56:35,252:processing per sample fasta files
+INFO(132294582388544)2026-04-03 04:56:35,252:--------------------------------------------------------
+INFO(132294582388544)2026-04-03 04:56:35,252:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802241_39_L001_R1_001.fastq.gz
+INFO(126204499904320)2026-04-03 04:56:41,493:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802218_38_L001_R1_001.fastq.gz.trim
+INFO(126204499904320)2026-04-03 04:56:42,016:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802218_38_L001_R1_001.fastq.gz.trim.derep
+INFO(126204499904320)2026-04-03 04:56:42,935:total sequences 5297, passing sequences 5297, failing sequences 0
+INFO(126204499904320)2026-04-03 04:56:42,935:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802218_38_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(134760412952384)2026-04-03 04:56:53,643:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802195_55_L001_R1_001.fastq.gz.trim
+INFO(137788731463488)2026-04-03 04:56:54,143:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802191_1_L001_R1_001.fastq.gz.trim
+INFO(134760412952384)2026-04-03 04:56:54,188:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802195_55_L001_R1_001.fastq.gz.trim.derep
+INFO(137788731463488)2026-04-03 04:56:54,583:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802191_1_L001_R1_001.fastq.gz.trim.derep
+INFO(134760412952384)2026-04-03 04:56:55,173:total sequences 6675, passing sequences 6675, failing sequences 0
+INFO(134760412952384)2026-04-03 04:56:55,174:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802195_55_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137788731463488)2026-04-03 04:56:55,508:total sequences 5608, passing sequences 5608, failing sequences 0
+INFO(137788731463488)2026-04-03 04:56:55,508:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802191_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(132294582388544)2026-04-03 04:57:25,545:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802241_39_L001_R1_001.fastq.gz.trim
+INFO(132294582388544)2026-04-03 04:57:26,097:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802241_39_L001_R1_001.fastq.gz.trim.derep
+INFO(132294582388544)2026-04-03 04:57:26,970:total sequences 6557, passing sequences 6557, failing sequences 0
+INFO(132294582388544)2026-04-03 04:57:26,971:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802241_39_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(126204499904320)2026-04-03 04:57:38,145:deblurring 5297 sequences
+INFO(126204499904320)2026-04-03 04:57:43,711:416 unique sequences left following deblurring
+INFO(126204499904320)2026-04-03 04:57:43,716:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802218_38_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(126204499904320)2026-04-03 04:57:44,312:finished processing file
+INFO(126204499904320)2026-04-03 04:57:44,314:finished processing per sample fasta files
+INFO(126204499904320)2026-04-03 04:57:44,314:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802218_38_L001_R1_001.fastq.gz finished
+INFO(123386694850368)2026-04-03 04:57:45,739:*************************
+INFO(123386694850368)2026-04-03 04:57:45,739:deblurring started
+WARNING(123386694850368)2026-04-03 04:57:45,740:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802216_3_L001_R1_001.fastq.gz
+WARNING(123386694850368)2026-04-03 04:57:45,740:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802216_3_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123386694850368)2026-04-03 04:57:45,740:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123386694850368)2026-04-03 04:57:45,740:deblur worker thread started
+INFO(123386694850368)2026-04-03 04:57:45,740:processing per sample fasta files
+INFO(123386694850368)2026-04-03 04:57:45,740:--------------------------------------------------------
+INFO(123386694850368)2026-04-03 04:57:45,741:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802216_3_L001_R1_001.fastq.gz
+INFO(137788731463488)2026-04-03 04:57:59,279:deblurring 5608 sequences
+INFO(137788731463488)2026-04-03 04:58:08,214:546 unique sequences left following deblurring
+INFO(137788731463488)2026-04-03 04:58:08,222:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802191_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(137788731463488)2026-04-03 04:58:09,038:finished processing file
+INFO(137788731463488)2026-04-03 04:58:09,041:finished processing per sample fasta files
+INFO(137788731463488)2026-04-03 04:58:09,041:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802191_1_L001_R1_001.fastq.gz finished
+INFO(130270524933952)2026-04-03 04:58:10,960:*************************
+INFO(130270524933952)2026-04-03 04:58:10,961:deblurring started
+WARNING(130270524933952)2026-04-03 04:58:10,961:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802207_49_L001_R1_001.fastq.gz
+WARNING(130270524933952)2026-04-03 04:58:10,961:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802207_49_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130270524933952)2026-04-03 04:58:10,961:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130270524933952)2026-04-03 04:58:10,961:deblur worker thread started
+INFO(130270524933952)2026-04-03 04:58:10,961:processing per sample fasta files
+INFO(130270524933952)2026-04-03 04:58:10,961:--------------------------------------------------------
+INFO(130270524933952)2026-04-03 04:58:10,961:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802207_49_L001_R1_001.fastq.gz
+INFO(134760412952384)2026-04-03 04:58:22,775:deblurring 6675 sequences
+INFO(134760412952384)2026-04-03 04:58:29,853:397 unique sequences left following deblurring
+INFO(134760412952384)2026-04-03 04:58:29,860:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802195_55_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(134760412952384)2026-04-03 04:58:30,441:finished processing file
+INFO(134760412952384)2026-04-03 04:58:30,450:finished processing per sample fasta files
+INFO(134760412952384)2026-04-03 04:58:30,451:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802195_55_L001_R1_001.fastq.gz finished
+INFO(131828659922752)2026-04-03 04:58:32,161:*************************
+INFO(131828659922752)2026-04-03 04:58:32,161:deblurring started
+WARNING(131828659922752)2026-04-03 04:58:32,161:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802199_9_L001_R1_001.fastq.gz
+WARNING(131828659922752)2026-04-03 04:58:32,161:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802199_9_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131828659922752)2026-04-03 04:58:32,161:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131828659922752)2026-04-03 04:58:32,162:deblur worker thread started
+INFO(131828659922752)2026-04-03 04:58:32,162:processing per sample fasta files
+INFO(131828659922752)2026-04-03 04:58:32,162:--------------------------------------------------------
+INFO(131828659922752)2026-04-03 04:58:32,162:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802199_9_L001_R1_001.fastq.gz
+INFO(123386694850368)2026-04-03 04:58:32,645:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802216_3_L001_R1_001.fastq.gz.trim
+INFO(123386694850368)2026-04-03 04:58:33,216:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802216_3_L001_R1_001.fastq.gz.trim.derep
+INFO(123386694850368)2026-04-03 04:58:34,225:total sequences 5732, passing sequences 5732, failing sequences 0
+INFO(123386694850368)2026-04-03 04:58:34,225:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802216_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130270524933952)2026-04-03 04:58:46,764:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802207_49_L001_R1_001.fastq.gz.trim
+INFO(130270524933952)2026-04-03 04:58:47,211:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802207_49_L001_R1_001.fastq.gz.trim.derep
+INFO(130270524933952)2026-04-03 04:58:48,378:total sequences 4272, passing sequences 4272, failing sequences 0
+INFO(130270524933952)2026-04-03 04:58:48,378:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802207_49_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(132294582388544)2026-04-03 04:58:57,462:deblurring 6557 sequences
+INFO(132294582388544)2026-04-03 04:59:03,830:333 unique sequences left following deblurring
+INFO(132294582388544)2026-04-03 04:59:03,839:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802241_39_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(132294582388544)2026-04-03 04:59:04,311:finished processing file
+INFO(132294582388544)2026-04-03 04:59:04,313:finished processing per sample fasta files
+INFO(132294582388544)2026-04-03 04:59:04,313:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802241_39_L001_R1_001.fastq.gz finished
+INFO(130849064666944)2026-04-03 04:59:05,956:*************************
+INFO(130849064666944)2026-04-03 04:59:05,956:deblurring started
+WARNING(130849064666944)2026-04-03 04:59:05,956:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802202_51_L001_R1_001.fastq.gz
+WARNING(130849064666944)2026-04-03 04:59:05,956:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802202_51_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130849064666944)2026-04-03 04:59:05,956:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130849064666944)2026-04-03 04:59:05,956:deblur worker thread started
+INFO(130849064666944)2026-04-03 04:59:05,957:processing per sample fasta files
+INFO(130849064666944)2026-04-03 04:59:05,957:--------------------------------------------------------
+INFO(130849064666944)2026-04-03 04:59:05,957:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802202_51_L001_R1_001.fastq.gz
+INFO(131828659922752)2026-04-03 04:59:20,868:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802199_9_L001_R1_001.fastq.gz.trim
+INFO(131828659922752)2026-04-03 04:59:21,441:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802199_9_L001_R1_001.fastq.gz.trim.derep
+INFO(131828659922752)2026-04-03 04:59:22,514:total sequences 5492, passing sequences 5492, failing sequences 0
+INFO(131828659922752)2026-04-03 04:59:22,514:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802199_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130849064666944)2026-04-03 04:59:32,423:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802202_51_L001_R1_001.fastq.gz.trim
+INFO(130849064666944)2026-04-03 04:59:32,637:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802202_51_L001_R1_001.fastq.gz.trim.derep
+INFO(130270524933952)2026-04-03 04:59:32,742:deblurring 4272 sequences
+INFO(130849064666944)2026-04-03 04:59:33,394:total sequences 3141, passing sequences 3141, failing sequences 0
+INFO(130849064666944)2026-04-03 04:59:33,395:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802202_51_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130270524933952)2026-04-03 04:59:37,684:474 unique sequences left following deblurring
+INFO(130270524933952)2026-04-03 04:59:37,690:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802207_49_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(130270524933952)2026-04-03 04:59:38,358:finished processing file
+INFO(130270524933952)2026-04-03 04:59:38,361:finished processing per sample fasta files
+INFO(130270524933952)2026-04-03 04:59:38,361:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802207_49_L001_R1_001.fastq.gz finished
+INFO(127180552972096)2026-04-03 04:59:40,545:*************************
+INFO(127180552972096)2026-04-03 04:59:40,545:deblurring started
+WARNING(127180552972096)2026-04-03 04:59:40,546:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802243_15_L001_R1_001.fastq.gz
+WARNING(127180552972096)2026-04-03 04:59:40,546:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802243_15_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(127180552972096)2026-04-03 04:59:40,546:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(127180552972096)2026-04-03 04:59:40,546:deblur worker thread started
+INFO(127180552972096)2026-04-03 04:59:40,546:processing per sample fasta files
+INFO(127180552972096)2026-04-03 04:59:40,546:--------------------------------------------------------
+INFO(127180552972096)2026-04-03 04:59:40,546:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802243_15_L001_R1_001.fastq.gz
+INFO(123386694850368)2026-04-03 04:59:49,514:deblurring 5732 sequences
+INFO(123386694850368)2026-04-03 04:59:58,218:542 unique sequences left following deblurring
+INFO(123386694850368)2026-04-03 04:59:58,225:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802216_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(130849064666944)2026-04-03 04:59:58,252:deblurring 3141 sequences
+INFO(123386694850368)2026-04-03 04:59:58,900:finished processing file
+INFO(123386694850368)2026-04-03 04:59:58,902:finished processing per sample fasta files
+INFO(123386694850368)2026-04-03 04:59:58,902:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802216_3_L001_R1_001.fastq.gz finished
+INFO(130849064666944)2026-04-03 05:00:00,204:216 unique sequences left following deblurring
+INFO(130849064666944)2026-04-03 05:00:00,208:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802202_51_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(134925339662144)2026-04-03 05:00:00,458:*************************
+INFO(134925339662144)2026-04-03 05:00:00,458:deblurring started
+WARNING(134925339662144)2026-04-03 05:00:00,458:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802240_31_L001_R1_001.fastq.gz
+WARNING(134925339662144)2026-04-03 05:00:00,458:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802240_31_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134925339662144)2026-04-03 05:00:00,458:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134925339662144)2026-04-03 05:00:00,459:deblur worker thread started
+INFO(134925339662144)2026-04-03 05:00:00,459:processing per sample fasta files
+INFO(134925339662144)2026-04-03 05:00:00,459:--------------------------------------------------------
+INFO(134925339662144)2026-04-03 05:00:00,459:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802240_31_L001_R1_001.fastq.gz
+INFO(130849064666944)2026-04-03 05:00:00,519:finished processing file
+INFO(130849064666944)2026-04-03 05:00:00,527:finished processing per sample fasta files
+INFO(130849064666944)2026-04-03 05:00:00,528:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802202_51_L001_R1_001.fastq.gz finished
+INFO(128151095932736)2026-04-03 05:00:02,089:*************************
+INFO(128151095932736)2026-04-03 05:00:02,090:deblurring started
+WARNING(128151095932736)2026-04-03 05:00:02,090:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802196_35_L001_R1_001.fastq.gz
+WARNING(128151095932736)2026-04-03 05:00:02,090:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802196_35_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(128151095932736)2026-04-03 05:00:02,090:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128151095932736)2026-04-03 05:00:02,090:deblur worker thread started
+INFO(128151095932736)2026-04-03 05:00:02,090:processing per sample fasta files
+INFO(128151095932736)2026-04-03 05:00:02,090:--------------------------------------------------------
+INFO(128151095932736)2026-04-03 05:00:02,090:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802196_35_L001_R1_001.fastq.gz
+INFO(131828659922752)2026-04-03 05:00:25,292:deblurring 5492 sequences
+INFO(127180552972096)2026-04-03 05:00:29,639:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802243_15_L001_R1_001.fastq.gz.trim
+INFO(127180552972096)2026-04-03 05:00:30,251:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802243_15_L001_R1_001.fastq.gz.trim.derep
+INFO(127180552972096)2026-04-03 05:00:31,302:total sequences 5454, passing sequences 5454, failing sequences 0
+INFO(127180552972096)2026-04-03 05:00:31,302:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802243_15_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131828659922752)2026-04-03 05:00:34,885:648 unique sequences left following deblurring
+INFO(131828659922752)2026-04-03 05:00:34,899:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802199_9_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(131828659922752)2026-04-03 05:00:35,705:finished processing file
+INFO(131828659922752)2026-04-03 05:00:35,708:finished processing per sample fasta files
+INFO(131828659922752)2026-04-03 05:00:35,708:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802199_9_L001_R1_001.fastq.gz finished
+INFO(135304032794432)2026-04-03 05:00:37,211:*************************
+INFO(135304032794432)2026-04-03 05:00:37,211:deblurring started
+WARNING(135304032794432)2026-04-03 05:00:37,212:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802246_41_L001_R1_001.fastq.gz
+WARNING(135304032794432)2026-04-03 05:00:37,212:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802246_41_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135304032794432)2026-04-03 05:00:37,212:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135304032794432)2026-04-03 05:00:37,212:deblur worker thread started
+INFO(135304032794432)2026-04-03 05:00:37,212:processing per sample fasta files
+INFO(135304032794432)2026-04-03 05:00:37,212:--------------------------------------------------------
+INFO(135304032794432)2026-04-03 05:00:37,212:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802246_41_L001_R1_001.fastq.gz
+INFO(134925339662144)2026-04-03 05:00:48,174:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802240_31_L001_R1_001.fastq.gz.trim
+INFO(134925339662144)2026-04-03 05:00:48,719:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802240_31_L001_R1_001.fastq.gz.trim.derep
+INFO(134925339662144)2026-04-03 05:00:49,711:total sequences 6215, passing sequences 6215, failing sequences 0
+INFO(134925339662144)2026-04-03 05:00:49,712:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802240_31_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128151095932736)2026-04-03 05:00:50,105:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802196_35_L001_R1_001.fastq.gz.trim
+INFO(128151095932736)2026-04-03 05:00:50,505:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802196_35_L001_R1_001.fastq.gz.trim.derep
+INFO(128151095932736)2026-04-03 05:00:51,363:total sequences 5451, passing sequences 5451, failing sequences 0
+INFO(128151095932736)2026-04-03 05:00:51,363:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802196_35_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135304032794432)2026-04-03 05:01:31,428:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802246_41_L001_R1_001.fastq.gz.trim
+INFO(127180552972096)2026-04-03 05:01:31,854:deblurring 5454 sequences
+INFO(135304032794432)2026-04-03 05:01:31,917:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802246_41_L001_R1_001.fastq.gz.trim.derep
+INFO(135304032794432)2026-04-03 05:01:32,893:total sequences 7751, passing sequences 7751, failing sequences 0
+INFO(135304032794432)2026-04-03 05:01:32,893:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802246_41_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127180552972096)2026-04-03 05:01:34,830:243 unique sequences left following deblurring
+INFO(127180552972096)2026-04-03 05:01:34,833:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802243_15_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(127180552972096)2026-04-03 05:01:35,128:finished processing file
+INFO(127180552972096)2026-04-03 05:01:35,129:finished processing per sample fasta files
+INFO(127180552972096)2026-04-03 05:01:35,129:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802243_15_L001_R1_001.fastq.gz finished
+INFO(135874590795584)2026-04-03 05:01:36,610:*************************
+INFO(135874590795584)2026-04-03 05:01:36,610:deblurring started
+WARNING(135874590795584)2026-04-03 05:01:36,610:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802234_17_L001_R1_001.fastq.gz
+WARNING(135874590795584)2026-04-03 05:01:36,611:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802234_17_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135874590795584)2026-04-03 05:01:36,611:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135874590795584)2026-04-03 05:01:36,611:deblur worker thread started
+INFO(135874590795584)2026-04-03 05:01:36,611:processing per sample fasta files
+INFO(135874590795584)2026-04-03 05:01:36,611:--------------------------------------------------------
+INFO(135874590795584)2026-04-03 05:01:36,611:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802234_17_L001_R1_001.fastq.gz
+INFO(128151095932736)2026-04-03 05:01:50,371:deblurring 5451 sequences
+INFO(128151095932736)2026-04-03 05:01:57,003:419 unique sequences left following deblurring
+INFO(128151095932736)2026-04-03 05:01:57,010:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802196_35_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(128151095932736)2026-04-03 05:01:57,682:finished processing file
+INFO(128151095932736)2026-04-03 05:01:57,685:finished processing per sample fasta files
+INFO(128151095932736)2026-04-03 05:01:57,685:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802196_35_L001_R1_001.fastq.gz finished
+INFO(124663085614912)2026-04-03 05:01:59,467:*************************
+INFO(124663085614912)2026-04-03 05:01:59,467:deblurring started
+WARNING(124663085614912)2026-04-03 05:01:59,467:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802233_34_L001_R1_001.fastq.gz
+WARNING(124663085614912)2026-04-03 05:01:59,468:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802233_34_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(124663085614912)2026-04-03 05:01:59,468:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(124663085614912)2026-04-03 05:01:59,468:deblur worker thread started
+INFO(124663085614912)2026-04-03 05:01:59,468:processing per sample fasta files
+INFO(124663085614912)2026-04-03 05:01:59,468:--------------------------------------------------------
+INFO(124663085614912)2026-04-03 05:01:59,468:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802233_34_L001_R1_001.fastq.gz
+INFO(134925339662144)2026-04-03 05:02:03,813:deblurring 6215 sequences
+INFO(135874590795584)2026-04-03 05:02:12,041:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802234_17_L001_R1_001.fastq.gz.trim
+INFO(135874590795584)2026-04-03 05:02:12,567:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802234_17_L001_R1_001.fastq.gz.trim.derep
+INFO(134925339662144)2026-04-03 05:02:13,202:518 unique sequences left following deblurring
+INFO(134925339662144)2026-04-03 05:02:13,211:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802240_31_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135874590795584)2026-04-03 05:02:13,544:total sequences 4922, passing sequences 4922, failing sequences 0
+INFO(135874590795584)2026-04-03 05:02:13,544:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802234_17_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(134925339662144)2026-04-03 05:02:13,832:finished processing file
+INFO(134925339662144)2026-04-03 05:02:13,838:finished processing per sample fasta files
+INFO(134925339662144)2026-04-03 05:02:13,838:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802240_31_L001_R1_001.fastq.gz finished
+INFO(138049646708544)2026-04-03 05:02:15,293:*************************
+INFO(138049646708544)2026-04-03 05:02:15,293:deblurring started
+WARNING(138049646708544)2026-04-03 05:02:15,293:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802227_27_L001_R1_001.fastq.gz
+WARNING(138049646708544)2026-04-03 05:02:15,293:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802227_27_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138049646708544)2026-04-03 05:02:15,294:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138049646708544)2026-04-03 05:02:15,294:deblur worker thread started
+INFO(138049646708544)2026-04-03 05:02:15,294:processing per sample fasta files
+INFO(138049646708544)2026-04-03 05:02:15,294:--------------------------------------------------------
+INFO(138049646708544)2026-04-03 05:02:15,294:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802227_27_L001_R1_001.fastq.gz
+INFO(138049646708544)2026-04-03 05:02:38,422:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802227_27_L001_R1_001.fastq.gz.trim
+INFO(138049646708544)2026-04-03 05:02:38,689:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802227_27_L001_R1_001.fastq.gz.trim.derep
+INFO(138049646708544)2026-04-03 05:02:39,499:total sequences 3160, passing sequences 3160, failing sequences 0
+INFO(138049646708544)2026-04-03 05:02:39,499:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802227_27_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(124663085614912)2026-04-03 05:02:42,883:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802233_34_L001_R1_001.fastq.gz.trim
+INFO(124663085614912)2026-04-03 05:02:43,308:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802233_34_L001_R1_001.fastq.gz.trim.derep
+INFO(124663085614912)2026-04-03 05:02:44,131:total sequences 4832, passing sequences 4832, failing sequences 0
+INFO(124663085614912)2026-04-03 05:02:44,131:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802233_34_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135874590795584)2026-04-03 05:03:01,401:deblurring 4922 sequences
+INFO(138049646708544)2026-04-03 05:03:02,189:deblurring 3160 sequences
+INFO(138049646708544)2026-04-03 05:03:04,819:272 unique sequences left following deblurring
+INFO(138049646708544)2026-04-03 05:03:04,822:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802227_27_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(138049646708544)2026-04-03 05:03:05,195:finished processing file
+INFO(138049646708544)2026-04-03 05:03:05,197:finished processing per sample fasta files
+INFO(138049646708544)2026-04-03 05:03:05,197:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802227_27_L001_R1_001.fastq.gz finished
+INFO(135874590795584)2026-04-03 05:03:05,288:299 unique sequences left following deblurring
+INFO(135874590795584)2026-04-03 05:03:05,293:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802234_17_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135874590795584)2026-04-03 05:03:05,746:finished processing file
+INFO(135874590795584)2026-04-03 05:03:05,748:finished processing per sample fasta files
+INFO(135874590795584)2026-04-03 05:03:05,748:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802234_17_L001_R1_001.fastq.gz finished
+INFO(131799754643264)2026-04-03 05:03:06,727:*************************
+INFO(131799754643264)2026-04-03 05:03:06,727:deblurring started
+WARNING(131799754643264)2026-04-03 05:03:06,727:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802209_56_L001_R1_001.fastq.gz
+WARNING(131799754643264)2026-04-03 05:03:06,727:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802209_56_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131799754643264)2026-04-03 05:03:06,727:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131799754643264)2026-04-03 05:03:06,728:deblur worker thread started
+INFO(131799754643264)2026-04-03 05:03:06,728:processing per sample fasta files
+INFO(131799754643264)2026-04-03 05:03:06,728:--------------------------------------------------------
+INFO(131799754643264)2026-04-03 05:03:06,728:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802209_56_L001_R1_001.fastq.gz
+INFO(123427758110528)2026-04-03 05:03:07,386:*************************
+INFO(123427758110528)2026-04-03 05:03:07,386:deblurring started
+WARNING(123427758110528)2026-04-03 05:03:07,387:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802213_37_L001_R1_001.fastq.gz
+WARNING(123427758110528)2026-04-03 05:03:07,387:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802213_37_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123427758110528)2026-04-03 05:03:07,387:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123427758110528)2026-04-03 05:03:07,387:deblur worker thread started
+INFO(123427758110528)2026-04-03 05:03:07,387:processing per sample fasta files
+INFO(123427758110528)2026-04-03 05:03:07,387:--------------------------------------------------------
+INFO(123427758110528)2026-04-03 05:03:07,387:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802213_37_L001_R1_001.fastq.gz
+INFO(135304032794432)2026-04-03 05:03:32,289:deblurring 7751 sequences
+INFO(124663085614912)2026-04-03 05:03:34,846:deblurring 4832 sequences
+INFO(124663085614912)2026-04-03 05:03:39,966:393 unique sequences left following deblurring
+INFO(124663085614912)2026-04-03 05:03:39,972:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802233_34_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135304032794432)2026-04-03 05:03:40,403:344 unique sequences left following deblurring
+INFO(135304032794432)2026-04-03 05:03:40,437:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802246_41_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(124663085614912)2026-04-03 05:03:40,438:finished processing file
+INFO(124663085614912)2026-04-03 05:03:40,440:finished processing per sample fasta files
+INFO(124663085614912)2026-04-03 05:03:40,441:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802233_34_L001_R1_001.fastq.gz finished
+INFO(135304032794432)2026-04-03 05:03:40,898:finished processing file
+INFO(135304032794432)2026-04-03 05:03:40,900:finished processing per sample fasta files
+INFO(135304032794432)2026-04-03 05:03:40,900:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802246_41_L001_R1_001.fastq.gz finished
+INFO(134770094991168)2026-04-03 05:03:42,018:*************************
+INFO(134770094991168)2026-04-03 05:03:42,019:deblurring started
+WARNING(134770094991168)2026-04-03 05:03:42,019:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802190_32_L001_R1_001.fastq.gz
+WARNING(134770094991168)2026-04-03 05:03:42,019:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802190_32_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134770094991168)2026-04-03 05:03:42,019:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134770094991168)2026-04-03 05:03:42,019:deblur worker thread started
+INFO(134770094991168)2026-04-03 05:03:42,019:processing per sample fasta files
+INFO(134770094991168)2026-04-03 05:03:42,019:--------------------------------------------------------
+INFO(134770094991168)2026-04-03 05:03:42,019:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802190_32_L001_R1_001.fastq.gz
+INFO(140165180184384)2026-04-03 05:03:42,697:*************************
+INFO(140165180184384)2026-04-03 05:03:42,697:deblurring started
+WARNING(140165180184384)2026-04-03 05:03:42,698:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802188_5_L001_R1_001.fastq.gz
+WARNING(140165180184384)2026-04-03 05:03:42,698:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802188_5_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140165180184384)2026-04-03 05:03:42,698:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140165180184384)2026-04-03 05:03:42,698:deblur worker thread started
+INFO(140165180184384)2026-04-03 05:03:42,698:processing per sample fasta files
+INFO(140165180184384)2026-04-03 05:03:42,698:--------------------------------------------------------
+INFO(140165180184384)2026-04-03 05:03:42,698:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802188_5_L001_R1_001.fastq.gz
+INFO(123427758110528)2026-04-03 05:03:57,904:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802213_37_L001_R1_001.fastq.gz.trim
+INFO(123427758110528)2026-04-03 05:03:58,550:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802213_37_L001_R1_001.fastq.gz.trim.derep
+INFO(123427758110528)2026-04-03 05:03:59,568:total sequences 5741, passing sequences 5741, failing sequences 0
+INFO(123427758110528)2026-04-03 05:03:59,568:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802213_37_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(131799754643264)2026-04-03 05:04:06,056:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802209_56_L001_R1_001.fastq.gz.trim
+INFO(131799754643264)2026-04-03 05:04:06,611:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802209_56_L001_R1_001.fastq.gz.trim.derep
+INFO(131799754643264)2026-04-03 05:04:07,630:total sequences 7101, passing sequences 7101, failing sequences 0
+INFO(131799754643264)2026-04-03 05:04:07,630:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802209_56_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140165180184384)2026-04-03 05:04:16,149:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802188_5_L001_R1_001.fastq.gz.trim
+INFO(140165180184384)2026-04-03 05:04:16,529:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802188_5_L001_R1_001.fastq.gz.trim.derep
+INFO(140165180184384)2026-04-03 05:04:17,694:total sequences 4620, passing sequences 4620, failing sequences 0
+INFO(140165180184384)2026-04-03 05:04:17,694:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802188_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(134770094991168)2026-04-03 05:04:20,220:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802190_32_L001_R1_001.fastq.gz.trim
+INFO(134770094991168)2026-04-03 05:04:20,676:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802190_32_L001_R1_001.fastq.gz.trim.derep
+INFO(134770094991168)2026-04-03 05:04:21,481:total sequences 5141, passing sequences 5141, failing sequences 0
+INFO(134770094991168)2026-04-03 05:04:21,482:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802190_32_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140165180184384)2026-04-03 05:05:01,670:deblurring 4620 sequences
+INFO(123427758110528)2026-04-03 05:05:03,952:deblurring 5741 sequences
+INFO(140165180184384)2026-04-03 05:05:06,529:396 unique sequences left following deblurring
+INFO(140165180184384)2026-04-03 05:05:06,541:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802188_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140165180184384)2026-04-03 05:05:07,092:finished processing file
+INFO(140165180184384)2026-04-03 05:05:07,105:finished processing per sample fasta files
+INFO(140165180184384)2026-04-03 05:05:07,106:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802188_5_L001_R1_001.fastq.gz finished
+INFO(134251637692224)2026-04-03 05:05:08,750:*************************
+INFO(134251637692224)2026-04-03 05:05:08,750:deblurring started
+WARNING(134251637692224)2026-04-03 05:05:08,751:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802229_14_L001_R1_001.fastq.gz
+WARNING(134251637692224)2026-04-03 05:05:08,751:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802229_14_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134251637692224)2026-04-03 05:05:08,751:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134251637692224)2026-04-03 05:05:08,751:deblur worker thread started
+INFO(134251637692224)2026-04-03 05:05:08,751:processing per sample fasta files
+INFO(134251637692224)2026-04-03 05:05:08,751:--------------------------------------------------------
+INFO(134251637692224)2026-04-03 05:05:08,751:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802229_14_L001_R1_001.fastq.gz
+INFO(123427758110528)2026-04-03 05:05:12,643:535 unique sequences left following deblurring
+INFO(123427758110528)2026-04-03 05:05:12,649:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802213_37_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(123427758110528)2026-04-03 05:05:13,291:finished processing file
+INFO(123427758110528)2026-04-03 05:05:13,299:finished processing per sample fasta files
+INFO(123427758110528)2026-04-03 05:05:13,299:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802213_37_L001_R1_001.fastq.gz finished
+INFO(134770094991168)2026-04-03 05:05:14,052:deblurring 5141 sequences
+INFO(123636412417856)2026-04-03 05:05:14,970:*************************
+INFO(123636412417856)2026-04-03 05:05:14,970:deblurring started
+WARNING(123636412417856)2026-04-03 05:05:14,971:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802211_45_L001_R1_001.fastq.gz
+WARNING(123636412417856)2026-04-03 05:05:14,971:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802211_45_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123636412417856)2026-04-03 05:05:14,971:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123636412417856)2026-04-03 05:05:14,971:deblur worker thread started
+INFO(123636412417856)2026-04-03 05:05:14,971:processing per sample fasta files
+INFO(123636412417856)2026-04-03 05:05:14,971:--------------------------------------------------------
+INFO(123636412417856)2026-04-03 05:05:14,971:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802211_45_L001_R1_001.fastq.gz
+INFO(134770094991168)2026-04-03 05:05:21,505:523 unique sequences left following deblurring
+INFO(134770094991168)2026-04-03 05:05:21,512:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802190_32_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(134770094991168)2026-04-03 05:05:22,245:finished processing file
+INFO(134770094991168)2026-04-03 05:05:22,260:finished processing per sample fasta files
+INFO(134770094991168)2026-04-03 05:05:22,261:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802190_32_L001_R1_001.fastq.gz finished
+INFO(140097487386432)2026-04-03 05:05:23,759:*************************
+INFO(140097487386432)2026-04-03 05:05:23,759:deblurring started
+WARNING(140097487386432)2026-04-03 05:05:23,760:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802187_40_L001_R1_001.fastq.gz
+WARNING(140097487386432)2026-04-03 05:05:23,760:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802187_40_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140097487386432)2026-04-03 05:05:23,760:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140097487386432)2026-04-03 05:05:23,760:deblur worker thread started
+INFO(140097487386432)2026-04-03 05:05:23,760:processing per sample fasta files
+INFO(140097487386432)2026-04-03 05:05:23,760:--------------------------------------------------------
+INFO(140097487386432)2026-04-03 05:05:23,760:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802187_40_L001_R1_001.fastq.gz
+INFO(131799754643264)2026-04-03 05:05:46,199:deblurring 7101 sequences
+INFO(131799754643264)2026-04-03 05:05:56,086:434 unique sequences left following deblurring
+INFO(131799754643264)2026-04-03 05:05:56,098:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802209_56_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(131799754643264)2026-04-03 05:05:56,648:finished processing file
+INFO(131799754643264)2026-04-03 05:05:56,652:finished processing per sample fasta files
+INFO(131799754643264)2026-04-03 05:05:56,653:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802209_56_L001_R1_001.fastq.gz finished
+INFO(134251637692224)2026-04-03 05:05:58,370:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802229_14_L001_R1_001.fastq.gz.trim
+INFO(138934641358656)2026-04-03 05:05:58,448:*************************
+INFO(138934641358656)2026-04-03 05:05:58,449:deblurring started
+WARNING(138934641358656)2026-04-03 05:05:58,449:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802238_18_L001_R1_001.fastq.gz
+WARNING(138934641358656)2026-04-03 05:05:58,449:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802238_18_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138934641358656)2026-04-03 05:05:58,450:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138934641358656)2026-04-03 05:05:58,450:deblur worker thread started
+INFO(138934641358656)2026-04-03 05:05:58,450:processing per sample fasta files
+INFO(138934641358656)2026-04-03 05:05:58,450:--------------------------------------------------------
+INFO(138934641358656)2026-04-03 05:05:58,450:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802238_18_L001_R1_001.fastq.gz
+INFO(134251637692224)2026-04-03 05:05:58,906:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802229_14_L001_R1_001.fastq.gz.trim.derep
+INFO(134251637692224)2026-04-03 05:05:59,951:total sequences 5944, passing sequences 5944, failing sequences 0
+INFO(134251637692224)2026-04-03 05:05:59,951:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802229_14_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123636412417856)2026-04-03 05:06:02,379:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802211_45_L001_R1_001.fastq.gz.trim
+INFO(123636412417856)2026-04-03 05:06:02,907:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802211_45_L001_R1_001.fastq.gz.trim.derep
+INFO(123636412417856)2026-04-03 05:06:03,767:total sequences 4858, passing sequences 4858, failing sequences 0
+INFO(123636412417856)2026-04-03 05:06:03,767:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802211_45_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140097487386432)2026-04-03 05:06:31,959:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802187_40_L001_R1_001.fastq.gz.trim
+INFO(140097487386432)2026-04-03 05:06:32,819:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802187_40_L001_R1_001.fastq.gz.trim.derep
+INFO(140097487386432)2026-04-03 05:06:34,247:total sequences 6169, passing sequences 6169, failing sequences 0
+INFO(140097487386432)2026-04-03 05:06:34,247:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802187_40_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123636412417856)2026-04-03 05:07:05,136:deblurring 4858 sequences
+INFO(138934641358656)2026-04-03 05:07:05,262:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802238_18_L001_R1_001.fastq.gz.trim
+INFO(138934641358656)2026-04-03 05:07:05,912:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802238_18_L001_R1_001.fastq.gz.trim.derep
+INFO(138934641358656)2026-04-03 05:07:07,164:total sequences 7216, passing sequences 7216, failing sequences 0
+INFO(138934641358656)2026-04-03 05:07:07,164:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802238_18_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123636412417856)2026-04-03 05:07:09,668:324 unique sequences left following deblurring
+INFO(123636412417856)2026-04-03 05:07:09,675:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802211_45_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(123636412417856)2026-04-03 05:07:10,078:finished processing file
+INFO(123636412417856)2026-04-03 05:07:10,080:finished processing per sample fasta files
+INFO(123636412417856)2026-04-03 05:07:10,080:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802211_45_L001_R1_001.fastq.gz finished
+INFO(139862208517952)2026-04-03 05:07:11,943:*************************
+INFO(139862208517952)2026-04-03 05:07:11,943:deblurring started
+WARNING(139862208517952)2026-04-03 05:07:11,944:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802231_7_L001_R1_001.fastq.gz
+WARNING(139862208517952)2026-04-03 05:07:11,944:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802231_7_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139862208517952)2026-04-03 05:07:11,944:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139862208517952)2026-04-03 05:07:11,945:deblur worker thread started
+INFO(139862208517952)2026-04-03 05:07:11,945:processing per sample fasta files
+INFO(139862208517952)2026-04-03 05:07:11,945:--------------------------------------------------------
+INFO(139862208517952)2026-04-03 05:07:11,945:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802231_7_L001_R1_001.fastq.gz
+INFO(134251637692224)2026-04-03 05:07:27,897:deblurring 5944 sequences
+INFO(134251637692224)2026-04-03 05:07:34,785:435 unique sequences left following deblurring
+INFO(134251637692224)2026-04-03 05:07:34,799:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802229_14_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(134251637692224)2026-04-03 05:07:35,434:finished processing file
+INFO(134251637692224)2026-04-03 05:07:35,436:finished processing per sample fasta files
+INFO(134251637692224)2026-04-03 05:07:35,437:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802229_14_L001_R1_001.fastq.gz finished
+INFO(140162053683008)2026-04-03 05:07:37,104:*************************
+INFO(140162053683008)2026-04-03 05:07:37,104:deblurring started
+WARNING(140162053683008)2026-04-03 05:07:37,105:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802203_19_L001_R1_001.fastq.gz
+WARNING(140162053683008)2026-04-03 05:07:37,106:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802203_19_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140162053683008)2026-04-03 05:07:37,106:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140162053683008)2026-04-03 05:07:37,106:deblur worker thread started
+INFO(140162053683008)2026-04-03 05:07:37,106:processing per sample fasta files
+INFO(140162053683008)2026-04-03 05:07:37,107:--------------------------------------------------------
+INFO(140162053683008)2026-04-03 05:07:37,107:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802203_19_L001_R1_001.fastq.gz
+INFO(140097487386432)2026-04-03 05:08:02,507:deblurring 6169 sequences
+INFO(140162053683008)2026-04-03 05:08:08,394:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802203_19_L001_R1_001.fastq.gz.trim
+INFO(140162053683008)2026-04-03 05:08:08,743:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802203_19_L001_R1_001.fastq.gz.trim.derep
+INFO(140162053683008)2026-04-03 05:08:09,768:total sequences 3589, passing sequences 3589, failing sequences 0
+INFO(140162053683008)2026-04-03 05:08:09,768:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802203_19_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140097487386432)2026-04-03 05:08:10,546:445 unique sequences left following deblurring
+INFO(140097487386432)2026-04-03 05:08:10,563:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802187_40_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140097487386432)2026-04-03 05:08:11,174:finished processing file
+INFO(140097487386432)2026-04-03 05:08:11,177:finished processing per sample fasta files
+INFO(140097487386432)2026-04-03 05:08:11,177:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802187_40_L001_R1_001.fastq.gz finished
+INFO(139862208517952)2026-04-03 05:08:12,081:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802231_7_L001_R1_001.fastq.gz.trim
+INFO(139862208517952)2026-04-03 05:08:12,635:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802231_7_L001_R1_001.fastq.gz.trim.derep
+INFO(123390228277056)2026-04-03 05:08:12,782:*************************
+INFO(123390228277056)2026-04-03 05:08:12,782:deblurring started
+WARNING(123390228277056)2026-04-03 05:08:12,782:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802228_16_L001_R1_001.fastq.gz
+WARNING(123390228277056)2026-04-03 05:08:12,782:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802228_16_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123390228277056)2026-04-03 05:08:12,783:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123390228277056)2026-04-03 05:08:12,783:deblur worker thread started
+INFO(123390228277056)2026-04-03 05:08:12,783:processing per sample fasta files
+INFO(123390228277056)2026-04-03 05:08:12,783:--------------------------------------------------------
+INFO(123390228277056)2026-04-03 05:08:12,783:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802228_16_L001_R1_001.fastq.gz
+INFO(139862208517952)2026-04-03 05:08:13,582:total sequences 6229, passing sequences 6229, failing sequences 0
+INFO(139862208517952)2026-04-03 05:08:13,582:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802231_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140162053683008)2026-04-03 05:08:41,681:deblurring 3589 sequences
+INFO(140162053683008)2026-04-03 05:08:45,806:354 unique sequences left following deblurring
+INFO(140162053683008)2026-04-03 05:08:45,815:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802203_19_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140162053683008)2026-04-03 05:08:46,481:finished processing file
+INFO(140162053683008)2026-04-03 05:08:46,484:finished processing per sample fasta files
+INFO(140162053683008)2026-04-03 05:08:46,484:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802203_19_L001_R1_001.fastq.gz finished
+INFO(123390228277056)2026-04-03 05:08:47,844:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802228_16_L001_R1_001.fastq.gz.trim
+INFO(123390228277056)2026-04-03 05:08:48,253:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802228_16_L001_R1_001.fastq.gz.trim.derep
+INFO(125183162459968)2026-04-03 05:08:48,604:*************************
+INFO(125183162459968)2026-04-03 05:08:48,605:deblurring started
+WARNING(125183162459968)2026-04-03 05:08:48,605:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802221_33_L001_R1_001.fastq.gz
+WARNING(125183162459968)2026-04-03 05:08:48,605:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802221_33_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(125183162459968)2026-04-03 05:08:48,606:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(125183162459968)2026-04-03 05:08:48,606:deblur worker thread started
+INFO(125183162459968)2026-04-03 05:08:48,606:processing per sample fasta files
+INFO(125183162459968)2026-04-03 05:08:48,606:--------------------------------------------------------
+INFO(125183162459968)2026-04-03 05:08:48,606:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802221_33_L001_R1_001.fastq.gz
+INFO(123390228277056)2026-04-03 05:08:49,319:total sequences 4473, passing sequences 4473, failing sequences 0
+INFO(123390228277056)2026-04-03 05:08:49,320:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802228_16_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138934641358656)2026-04-03 05:08:59,352:deblurring 7216 sequences
+INFO(138934641358656)2026-04-03 05:09:12,689:690 unique sequences left following deblurring
+INFO(138934641358656)2026-04-03 05:09:12,701:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802238_18_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(138934641358656)2026-04-03 05:09:13,587:finished processing file
+INFO(138934641358656)2026-04-03 05:09:13,591:finished processing per sample fasta files
+INFO(138934641358656)2026-04-03 05:09:13,591:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802238_18_L001_R1_001.fastq.gz finished
+INFO(125183162459968)2026-04-03 05:09:14,994:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802221_33_L001_R1_001.fastq.gz.trim
+INFO(135347623761728)2026-04-03 05:09:15,129:*************************
+INFO(135347623761728)2026-04-03 05:09:15,129:deblurring started
+WARNING(135347623761728)2026-04-03 05:09:15,130:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802236_23_L001_R1_001.fastq.gz
+WARNING(135347623761728)2026-04-03 05:09:15,130:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802236_23_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135347623761728)2026-04-03 05:09:15,131:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135347623761728)2026-04-03 05:09:15,131:deblur worker thread started
+INFO(135347623761728)2026-04-03 05:09:15,131:processing per sample fasta files
+INFO(135347623761728)2026-04-03 05:09:15,132:--------------------------------------------------------
+INFO(135347623761728)2026-04-03 05:09:15,132:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802236_23_L001_R1_001.fastq.gz
+INFO(125183162459968)2026-04-03 05:09:15,335:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802221_33_L001_R1_001.fastq.gz.trim.derep
+INFO(125183162459968)2026-04-03 05:09:16,155:total sequences 3564, passing sequences 3564, failing sequences 0
+INFO(125183162459968)2026-04-03 05:09:16,155:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802221_33_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(123390228277056)2026-04-03 05:09:31,414:deblurring 4473 sequences
+INFO(123390228277056)2026-04-03 05:09:37,157:486 unique sequences left following deblurring
+INFO(123390228277056)2026-04-03 05:09:37,164:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802228_16_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(139862208517952)2026-04-03 05:09:37,766:deblurring 6229 sequences
+INFO(123390228277056)2026-04-03 05:09:37,786:finished processing file
+INFO(123390228277056)2026-04-03 05:09:37,789:finished processing per sample fasta files
+INFO(123390228277056)2026-04-03 05:09:37,789:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802228_16_L001_R1_001.fastq.gz finished
+INFO(137292020541248)2026-04-03 05:09:39,366:*************************
+INFO(137292020541248)2026-04-03 05:09:39,366:deblurring started
+WARNING(137292020541248)2026-04-03 05:09:39,367:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802208_46_L001_R1_001.fastq.gz
+WARNING(137292020541248)2026-04-03 05:09:39,367:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802208_46_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(137292020541248)2026-04-03 05:09:39,367:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137292020541248)2026-04-03 05:09:39,367:deblur worker thread started
+INFO(137292020541248)2026-04-03 05:09:39,367:processing per sample fasta files
+INFO(137292020541248)2026-04-03 05:09:39,367:--------------------------------------------------------
+INFO(137292020541248)2026-04-03 05:09:39,367:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802208_46_L001_R1_001.fastq.gz
+INFO(139862208517952)2026-04-03 05:09:42,147:270 unique sequences left following deblurring
+INFO(139862208517952)2026-04-03 05:09:42,153:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802231_7_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(139862208517952)2026-04-03 05:09:42,533:finished processing file
+INFO(139862208517952)2026-04-03 05:09:42,535:finished processing per sample fasta files
+INFO(139862208517952)2026-04-03 05:09:42,536:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802231_7_L001_R1_001.fastq.gz finished
+INFO(135380155656000)2026-04-03 05:09:44,451:*************************
+INFO(135380155656000)2026-04-03 05:09:44,451:deblurring started
+WARNING(135380155656000)2026-04-03 05:09:44,451:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802212_36_L001_R1_001.fastq.gz
+WARNING(135380155656000)2026-04-03 05:09:44,452:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802212_36_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135380155656000)2026-04-03 05:09:44,452:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135380155656000)2026-04-03 05:09:44,452:deblur worker thread started
+INFO(135380155656000)2026-04-03 05:09:44,452:processing per sample fasta files
+INFO(135380155656000)2026-04-03 05:09:44,452:--------------------------------------------------------
+INFO(135380155656000)2026-04-03 05:09:44,452:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802212_36_L001_R1_001.fastq.gz
+INFO(125183162459968)2026-04-03 05:09:47,869:deblurring 3564 sequences
+INFO(125183162459968)2026-04-03 05:09:51,235:315 unique sequences left following deblurring
+INFO(125183162459968)2026-04-03 05:09:51,240:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802221_33_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(125183162459968)2026-04-03 05:09:51,610:finished processing file
+INFO(125183162459968)2026-04-03 05:09:51,612:finished processing per sample fasta files
+INFO(125183162459968)2026-04-03 05:09:51,613:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802221_33_L001_R1_001.fastq.gz finished
+INFO(126403325593408)2026-04-03 05:09:53,353:*************************
+INFO(126403325593408)2026-04-03 05:09:53,353:deblurring started
+WARNING(126403325593408)2026-04-03 05:09:53,354:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802205_58_L001_R1_001.fastq.gz
+WARNING(126403325593408)2026-04-03 05:09:53,354:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802205_58_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(126403325593408)2026-04-03 05:09:53,354:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(126403325593408)2026-04-03 05:09:53,354:deblur worker thread started
+INFO(126403325593408)2026-04-03 05:09:53,354:processing per sample fasta files
+INFO(126403325593408)2026-04-03 05:09:53,354:--------------------------------------------------------
+INFO(126403325593408)2026-04-03 05:09:53,354:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802205_58_L001_R1_001.fastq.gz
+INFO(135347623761728)2026-04-03 05:09:59,652:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802236_23_L001_R1_001.fastq.gz.trim
+INFO(135347623761728)2026-04-03 05:10:00,086:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802236_23_L001_R1_001.fastq.gz.trim.derep
+INFO(135347623761728)2026-04-03 05:10:01,016:total sequences 5332, passing sequences 5332, failing sequences 0
+INFO(135347623761728)2026-04-03 05:10:01,016:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802236_23_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(126403325593408)2026-04-03 05:10:41,133:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802205_58_L001_R1_001.fastq.gz.trim
+INFO(126403325593408)2026-04-03 05:10:41,625:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802205_58_L001_R1_001.fastq.gz.trim.derep
+INFO(126403325593408)2026-04-03 05:10:42,900:total sequences 3783, passing sequences 3783, failing sequences 0
+INFO(126403325593408)2026-04-03 05:10:42,900:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802205_58_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135380155656000)2026-04-03 05:10:44,073:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802212_36_L001_R1_001.fastq.gz.trim
+INFO(135380155656000)2026-04-03 05:10:44,910:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802212_36_L001_R1_001.fastq.gz.trim.derep
+INFO(135380155656000)2026-04-03 05:10:46,133:total sequences 5151, passing sequences 5151, failing sequences 0
+INFO(135380155656000)2026-04-03 05:10:46,134:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802212_36_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137292020541248)2026-04-03 05:10:56,763:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802208_46_L001_R1_001.fastq.gz.trim
+INFO(137292020541248)2026-04-03 05:10:57,535:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802208_46_L001_R1_001.fastq.gz.trim.derep
+INFO(137292020541248)2026-04-03 05:10:59,029:total sequences 7546, passing sequences 7546, failing sequences 0
+INFO(137292020541248)2026-04-03 05:10:59,029:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802208_46_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135347623761728)2026-04-03 05:11:22,339:deblurring 5332 sequences
+INFO(126403325593408)2026-04-03 05:11:27,585:deblurring 3783 sequences
+INFO(126403325593408)2026-04-03 05:11:32,672:269 unique sequences left following deblurring
+INFO(126403325593408)2026-04-03 05:11:32,687:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802205_58_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(126403325593408)2026-04-03 05:11:33,324:finished processing file
+INFO(126403325593408)2026-04-03 05:11:33,326:finished processing per sample fasta files
+INFO(126403325593408)2026-04-03 05:11:33,326:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802205_58_L001_R1_001.fastq.gz finished
+INFO(135347623761728)2026-04-03 05:11:35,186:585 unique sequences left following deblurring
+INFO(135347623761728)2026-04-03 05:11:35,202:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802236_23_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(128059685476160)2026-04-03 05:11:36,230:*************************
+INFO(128059685476160)2026-04-03 05:11:36,231:deblurring started
+WARNING(128059685476160)2026-04-03 05:11:36,232:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802189_11_L001_R1_001.fastq.gz
+WARNING(128059685476160)2026-04-03 05:11:36,235:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802189_11_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(128059685476160)2026-04-03 05:11:36,235:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(128059685476160)2026-04-03 05:11:36,235:deblur worker thread started
+INFO(128059685476160)2026-04-03 05:11:36,235:processing per sample fasta files
+INFO(128059685476160)2026-04-03 05:11:36,235:--------------------------------------------------------
+INFO(128059685476160)2026-04-03 05:11:36,235:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802189_11_L001_R1_001.fastq.gz
+INFO(135347623761728)2026-04-03 05:11:36,256:finished processing file
+INFO(135347623761728)2026-04-03 05:11:36,259:finished processing per sample fasta files
+INFO(135347623761728)2026-04-03 05:11:36,259:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802236_23_L001_R1_001.fastq.gz finished
+INFO(139674935572288)2026-04-03 05:11:38,662:*************************
+INFO(139674935572288)2026-04-03 05:11:38,663:deblurring started
+WARNING(139674935572288)2026-04-03 05:11:38,664:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802244_43_L001_R1_001.fastq.gz
+WARNING(139674935572288)2026-04-03 05:11:38,664:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802244_43_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139674935572288)2026-04-03 05:11:38,664:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139674935572288)2026-04-03 05:11:38,664:deblur worker thread started
+INFO(139674935572288)2026-04-03 05:11:38,664:processing per sample fasta files
+INFO(139674935572288)2026-04-03 05:11:38,664:--------------------------------------------------------
+INFO(139674935572288)2026-04-03 05:11:38,664:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802244_43_L001_R1_001.fastq.gz
+INFO(135380155656000)2026-04-03 05:12:10,541:deblurring 5151 sequences
+INFO(135380155656000)2026-04-03 05:12:18,889:423 unique sequences left following deblurring
+INFO(135380155656000)2026-04-03 05:12:18,896:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802212_36_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135380155656000)2026-04-03 05:12:19,728:finished processing file
+INFO(135380155656000)2026-04-03 05:12:19,731:finished processing per sample fasta files
+INFO(135380155656000)2026-04-03 05:12:19,731:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802212_36_L001_R1_001.fastq.gz finished
+INFO(135504234088256)2026-04-03 05:12:22,277:*************************
+INFO(135504234088256)2026-04-03 05:12:22,277:deblurring started
+WARNING(135504234088256)2026-04-03 05:12:22,279:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802222_47_L001_R1_001.fastq.gz
+WARNING(135504234088256)2026-04-03 05:12:22,280:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802222_47_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135504234088256)2026-04-03 05:12:22,280:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135504234088256)2026-04-03 05:12:22,280:deblur worker thread started
+INFO(135504234088256)2026-04-03 05:12:22,280:processing per sample fasta files
+INFO(135504234088256)2026-04-03 05:12:22,280:--------------------------------------------------------
+INFO(135504234088256)2026-04-03 05:12:22,281:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802222_47_L001_R1_001.fastq.gz
+INFO(128059685476160)2026-04-03 05:12:37,756:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802189_11_L001_R1_001.fastq.gz.trim
+INFO(128059685476160)2026-04-03 05:12:38,281:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802189_11_L001_R1_001.fastq.gz.trim.derep
+INFO(128059685476160)2026-04-03 05:12:39,504:total sequences 3814, passing sequences 3814, failing sequences 0
+INFO(128059685476160)2026-04-03 05:12:39,505:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802189_11_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139674935572288)2026-04-03 05:13:08,741:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802244_43_L001_R1_001.fastq.gz.trim
+INFO(139674935572288)2026-04-03 05:13:09,484:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802244_43_L001_R1_001.fastq.gz.trim.derep
+INFO(139674935572288)2026-04-03 05:13:10,729:total sequences 5466, passing sequences 5466, failing sequences 0
+INFO(139674935572288)2026-04-03 05:13:10,730:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802244_43_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135504234088256)2026-04-03 05:13:20,435:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802222_47_L001_R1_001.fastq.gz.trim
+INFO(135504234088256)2026-04-03 05:13:21,569:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802222_47_L001_R1_001.fastq.gz.trim.derep
+INFO(135504234088256)2026-04-03 05:13:23,141:total sequences 4359, passing sequences 4359, failing sequences 0
+INFO(135504234088256)2026-04-03 05:13:23,141:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802222_47_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(128059685476160)2026-04-03 05:13:25,236:deblurring 3814 sequences
+INFO(128059685476160)2026-04-03 05:13:30,244:316 unique sequences left following deblurring
+INFO(128059685476160)2026-04-03 05:13:30,250:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802189_11_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(128059685476160)2026-04-03 05:13:30,797:finished processing file
+INFO(128059685476160)2026-04-03 05:13:30,799:finished processing per sample fasta files
+INFO(128059685476160)2026-04-03 05:13:30,799:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802189_11_L001_R1_001.fastq.gz finished
+INFO(140160494479168)2026-04-03 05:13:32,896:*************************
+INFO(140160494479168)2026-04-03 05:13:32,896:deblurring started
+WARNING(140160494479168)2026-04-03 05:13:32,897:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802235_13_L001_R1_001.fastq.gz
+WARNING(140160494479168)2026-04-03 05:13:32,897:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802235_13_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(140160494479168)2026-04-03 05:13:32,897:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140160494479168)2026-04-03 05:13:32,897:deblur worker thread started
+INFO(140160494479168)2026-04-03 05:13:32,897:processing per sample fasta files
+INFO(140160494479168)2026-04-03 05:13:32,897:--------------------------------------------------------
+INFO(140160494479168)2026-04-03 05:13:32,897:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802235_13_L001_R1_001.fastq.gz
+INFO(137292020541248)2026-04-03 05:13:42,382:deblurring 7546 sequences
+INFO(137292020541248)2026-04-03 05:14:02,103:696 unique sequences left following deblurring
+INFO(137292020541248)2026-04-03 05:14:02,123:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802208_46_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(137292020541248)2026-04-03 05:14:03,206:finished processing file
+INFO(137292020541248)2026-04-03 05:14:03,209:finished processing per sample fasta files
+INFO(137292020541248)2026-04-03 05:14:03,209:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802208_46_L001_R1_001.fastq.gz finished
+INFO(139759949412160)2026-04-03 05:14:05,270:*************************
+INFO(139759949412160)2026-04-03 05:14:05,272:deblurring started
+WARNING(139759949412160)2026-04-03 05:14:05,273:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802245_42_L001_R1_001.fastq.gz
+WARNING(139759949412160)2026-04-03 05:14:05,273:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802245_42_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139759949412160)2026-04-03 05:14:05,273:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139759949412160)2026-04-03 05:14:05,274:deblur worker thread started
+INFO(139759949412160)2026-04-03 05:14:05,274:processing per sample fasta files
+INFO(139759949412160)2026-04-03 05:14:05,274:--------------------------------------------------------
+INFO(139759949412160)2026-04-03 05:14:05,274:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802245_42_L001_R1_001.fastq.gz
+INFO(140160494479168)2026-04-03 05:14:12,767:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802235_13_L001_R1_001.fastq.gz.trim
+INFO(140160494479168)2026-04-03 05:14:13,120:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802235_13_L001_R1_001.fastq.gz.trim.derep
+INFO(140160494479168)2026-04-03 05:14:14,193:total sequences 3582, passing sequences 3582, failing sequences 0
+INFO(140160494479168)2026-04-03 05:14:14,193:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802235_13_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(135504234088256)2026-04-03 05:14:17,023:deblurring 4359 sequences
+INFO(135504234088256)2026-04-03 05:14:21,681:304 unique sequences left following deblurring
+INFO(135504234088256)2026-04-03 05:14:21,688:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802222_47_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135504234088256)2026-04-03 05:14:22,172:finished processing file
+INFO(135504234088256)2026-04-03 05:14:22,176:finished processing per sample fasta files
+INFO(135504234088256)2026-04-03 05:14:22,176:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802222_47_L001_R1_001.fastq.gz finished
+INFO(130058688563008)2026-04-03 05:14:24,459:*************************
+INFO(130058688563008)2026-04-03 05:14:24,460:deblurring started
+WARNING(130058688563008)2026-04-03 05:14:24,461:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802210_0_L001_R1_001.fastq.gz
+WARNING(130058688563008)2026-04-03 05:14:24,462:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802210_0_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130058688563008)2026-04-03 05:14:24,462:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130058688563008)2026-04-03 05:14:24,462:deblur worker thread started
+INFO(130058688563008)2026-04-03 05:14:24,463:processing per sample fasta files
+INFO(130058688563008)2026-04-03 05:14:24,463:--------------------------------------------------------
+INFO(130058688563008)2026-04-03 05:14:24,463:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802210_0_L001_R1_001.fastq.gz
+INFO(139674935572288)2026-04-03 05:14:34,616:deblurring 5466 sequences
+INFO(139674935572288)2026-04-03 05:14:40,192:303 unique sequences left following deblurring
+INFO(139674935572288)2026-04-03 05:14:40,199:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802244_43_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(139674935572288)2026-04-03 05:14:40,666:finished processing file
+INFO(139674935572288)2026-04-03 05:14:40,668:finished processing per sample fasta files
+INFO(139674935572288)2026-04-03 05:14:40,668:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802244_43_L001_R1_001.fastq.gz finished
+INFO(134737334507328)2026-04-03 05:14:42,658:*************************
+INFO(134737334507328)2026-04-03 05:14:42,658:deblurring started
+WARNING(134737334507328)2026-04-03 05:14:42,659:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802225_57_L001_R1_001.fastq.gz
+WARNING(134737334507328)2026-04-03 05:14:42,659:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802225_57_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(134737334507328)2026-04-03 05:14:42,659:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(134737334507328)2026-04-03 05:14:42,660:deblur worker thread started
+INFO(134737334507328)2026-04-03 05:14:42,660:processing per sample fasta files
+INFO(134737334507328)2026-04-03 05:14:42,660:--------------------------------------------------------
+INFO(134737334507328)2026-04-03 05:14:42,660:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802225_57_L001_R1_001.fastq.gz
+INFO(140160494479168)2026-04-03 05:14:51,079:deblurring 3582 sequences
+INFO(140160494479168)2026-04-03 05:14:58,349:520 unique sequences left following deblurring
+INFO(140160494479168)2026-04-03 05:14:58,360:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802235_13_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(140160494479168)2026-04-03 05:14:59,223:finished processing file
+INFO(140160494479168)2026-04-03 05:14:59,226:finished processing per sample fasta files
+INFO(140160494479168)2026-04-03 05:14:59,227:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802235_13_L001_R1_001.fastq.gz finished
+INFO(127466881775424)2026-04-03 05:15:01,301:*************************
+INFO(127466881775424)2026-04-03 05:15:01,301:deblurring started
+WARNING(127466881775424)2026-04-03 05:15:01,302:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802215_26_L001_R1_001.fastq.gz
+WARNING(127466881775424)2026-04-03 05:15:01,302:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802215_26_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(127466881775424)2026-04-03 05:15:01,303:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(127466881775424)2026-04-03 05:15:01,303:deblur worker thread started
+INFO(127466881775424)2026-04-03 05:15:01,303:processing per sample fasta files
+INFO(127466881775424)2026-04-03 05:15:01,303:--------------------------------------------------------
+INFO(127466881775424)2026-04-03 05:15:01,303:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802215_26_L001_R1_001.fastq.gz
+INFO(139759949412160)2026-04-03 05:15:35,756:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802245_42_L001_R1_001.fastq.gz.trim
+INFO(134737334507328)2026-04-03 05:15:35,903:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802225_57_L001_R1_001.fastq.gz.trim
+INFO(134737334507328)2026-04-03 05:15:36,351:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802225_57_L001_R1_001.fastq.gz.trim.derep
+INFO(139759949412160)2026-04-03 05:15:36,551:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802245_42_L001_R1_001.fastq.gz.trim.derep
+INFO(134737334507328)2026-04-03 05:15:37,508:total sequences 4220, passing sequences 4220, failing sequences 0
+INFO(134737334507328)2026-04-03 05:15:37,508:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802225_57_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139759949412160)2026-04-03 05:15:37,975:total sequences 8284, passing sequences 8284, failing sequences 0
+INFO(139759949412160)2026-04-03 05:15:37,975:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802245_42_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130058688563008)2026-04-03 05:15:40,210:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802210_0_L001_R1_001.fastq.gz.trim
+INFO(130058688563008)2026-04-03 05:15:40,873:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802210_0_L001_R1_001.fastq.gz.trim.derep
+INFO(130058688563008)2026-04-03 05:15:41,959:total sequences 6049, passing sequences 6049, failing sequences 0
+INFO(130058688563008)2026-04-03 05:15:41,960:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802210_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127466881775424)2026-04-03 05:15:53,766:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802215_26_L001_R1_001.fastq.gz.trim
+INFO(127466881775424)2026-04-03 05:15:54,207:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802215_26_L001_R1_001.fastq.gz.trim.derep
+INFO(127466881775424)2026-04-03 05:15:55,081:total sequences 4486, passing sequences 4486, failing sequences 0
+INFO(127466881775424)2026-04-03 05:15:55,082:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802215_26_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(134737334507328)2026-04-03 05:16:21,190:deblurring 4220 sequences
+INFO(134737334507328)2026-04-03 05:16:23,855:229 unique sequences left following deblurring
+INFO(134737334507328)2026-04-03 05:16:23,873:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802225_57_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(134737334507328)2026-04-03 05:16:24,218:finished processing file
+INFO(134737334507328)2026-04-03 05:16:24,220:finished processing per sample fasta files
+INFO(134737334507328)2026-04-03 05:16:24,220:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802225_57_L001_R1_001.fastq.gz finished
+INFO(139370578302784)2026-04-03 05:16:26,006:*************************
+INFO(139370578302784)2026-04-03 05:16:26,006:deblurring started
+WARNING(139370578302784)2026-04-03 05:16:26,006:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802192_28_L001_R1_001.fastq.gz
+WARNING(139370578302784)2026-04-03 05:16:26,007:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802192_28_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139370578302784)2026-04-03 05:16:26,007:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139370578302784)2026-04-03 05:16:26,007:deblur worker thread started
+INFO(139370578302784)2026-04-03 05:16:26,007:processing per sample fasta files
+INFO(139370578302784)2026-04-03 05:16:26,007:--------------------------------------------------------
+INFO(139370578302784)2026-04-03 05:16:26,007:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802192_28_L001_R1_001.fastq.gz
+INFO(127466881775424)2026-04-03 05:16:40,132:deblurring 4486 sequences
+INFO(127466881775424)2026-04-03 05:16:45,285:450 unique sequences left following deblurring
+INFO(127466881775424)2026-04-03 05:16:45,291:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802215_26_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(127466881775424)2026-04-03 05:16:46,008:finished processing file
+INFO(127466881775424)2026-04-03 05:16:46,011:finished processing per sample fasta files
+INFO(127466881775424)2026-04-03 05:16:46,011:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802215_26_L001_R1_001.fastq.gz finished
+INFO(138123109009216)2026-04-03 05:16:48,121:*************************
+INFO(138123109009216)2026-04-03 05:16:48,121:deblurring started
+WARNING(138123109009216)2026-04-03 05:16:48,122:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802220_21_L001_R1_001.fastq.gz
+WARNING(138123109009216)2026-04-03 05:16:48,122:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802220_21_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138123109009216)2026-04-03 05:16:48,122:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138123109009216)2026-04-03 05:16:48,122:deblur worker thread started
+INFO(138123109009216)2026-04-03 05:16:48,122:processing per sample fasta files
+INFO(138123109009216)2026-04-03 05:16:48,122:--------------------------------------------------------
+INFO(138123109009216)2026-04-03 05:16:48,123:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802220_21_L001_R1_001.fastq.gz
+INFO(130058688563008)2026-04-03 05:16:59,499:deblurring 6049 sequences
+INFO(130058688563008)2026-04-03 05:17:06,419:358 unique sequences left following deblurring
+INFO(130058688563008)2026-04-03 05:17:06,429:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802210_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(130058688563008)2026-04-03 05:17:06,961:finished processing file
+INFO(130058688563008)2026-04-03 05:17:06,963:finished processing per sample fasta files
+INFO(130058688563008)2026-04-03 05:17:06,964:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802210_0_L001_R1_001.fastq.gz finished
+INFO(126486969644864)2026-04-03 05:17:08,928:*************************
+INFO(126486969644864)2026-04-03 05:17:08,928:deblurring started
+WARNING(126486969644864)2026-04-03 05:17:08,929:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802230_4_L001_R1_001.fastq.gz
+WARNING(126486969644864)2026-04-03 05:17:08,929:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802230_4_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(126486969644864)2026-04-03 05:17:08,929:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(126486969644864)2026-04-03 05:17:08,930:deblur worker thread started
+INFO(126486969644864)2026-04-03 05:17:08,930:processing per sample fasta files
+INFO(126486969644864)2026-04-03 05:17:08,930:--------------------------------------------------------
+INFO(126486969644864)2026-04-03 05:17:08,930:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802230_4_L001_R1_001.fastq.gz
+INFO(139370578302784)2026-04-03 05:17:22,585:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802192_28_L001_R1_001.fastq.gz.trim
+INFO(139370578302784)2026-04-03 05:17:23,216:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802192_28_L001_R1_001.fastq.gz.trim.derep
+INFO(139370578302784)2026-04-03 05:17:24,307:total sequences 6285, passing sequences 6285, failing sequences 0
+INFO(139370578302784)2026-04-03 05:17:24,308:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802192_28_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138123109009216)2026-04-03 05:17:55,662:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802220_21_L001_R1_001.fastq.gz.trim
+INFO(138123109009216)2026-04-03 05:17:56,519:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802220_21_L001_R1_001.fastq.gz.trim.derep
+INFO(126486969644864)2026-04-03 05:17:57,468:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802230_4_L001_R1_001.fastq.gz.trim
+INFO(138123109009216)2026-04-03 05:17:57,860:total sequences 7084, passing sequences 7084, failing sequences 0
+INFO(138123109009216)2026-04-03 05:17:57,860:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802220_21_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(126486969644864)2026-04-03 05:17:57,961:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802230_4_L001_R1_001.fastq.gz.trim.derep
+INFO(126486969644864)2026-04-03 05:17:59,210:total sequences 4469, passing sequences 4469, failing sequences 0
+INFO(126486969644864)2026-04-03 05:17:59,211:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802230_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139759949412160)2026-04-03 05:18:01,706:deblurring 8284 sequences
+INFO(139759949412160)2026-04-03 05:18:13,255:428 unique sequences left following deblurring
+INFO(139759949412160)2026-04-03 05:18:13,269:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802245_42_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(139759949412160)2026-04-03 05:18:13,962:finished processing file
+INFO(139759949412160)2026-04-03 05:18:13,968:finished processing per sample fasta files
+INFO(139759949412160)2026-04-03 05:18:13,968:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802245_42_L001_R1_001.fastq.gz finished
+INFO(126232569014080)2026-04-03 05:18:16,384:*************************
+INFO(126232569014080)2026-04-03 05:18:16,385:deblurring started
+WARNING(126232569014080)2026-04-03 05:18:16,387:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802224_25_L001_R1_001.fastq.gz
+WARNING(126232569014080)2026-04-03 05:18:16,388:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802224_25_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(126232569014080)2026-04-03 05:18:16,389:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(126232569014080)2026-04-03 05:18:16,389:deblur worker thread started
+INFO(126232569014080)2026-04-03 05:18:16,389:processing per sample fasta files
+INFO(126232569014080)2026-04-03 05:18:16,389:--------------------------------------------------------
+INFO(126232569014080)2026-04-03 05:18:16,390:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802224_25_L001_R1_001.fastq.gz
+INFO(126486969644864)2026-04-03 05:18:53,056:deblurring 4469 sequences
+INFO(139370578302784)2026-04-03 05:18:58,413:deblurring 6285 sequences
+INFO(126486969644864)2026-04-03 05:18:59,853:429 unique sequences left following deblurring
+INFO(126486969644864)2026-04-03 05:18:59,860:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802230_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(126486969644864)2026-04-03 05:19:00,556:finished processing file
+INFO(126486969644864)2026-04-03 05:19:00,559:finished processing per sample fasta files
+INFO(126486969644864)2026-04-03 05:19:00,559:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802230_4_L001_R1_001.fastq.gz finished
+INFO(138372505298752)2026-04-03 05:19:02,614:*************************
+INFO(138372505298752)2026-04-03 05:19:02,615:deblurring started
+WARNING(138372505298752)2026-04-03 05:19:02,616:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802200_54_L001_R1_001.fastq.gz
+WARNING(138372505298752)2026-04-03 05:19:02,616:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802200_54_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(138372505298752)2026-04-03 05:19:02,616:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(138372505298752)2026-04-03 05:19:02,616:deblur worker thread started
+INFO(138372505298752)2026-04-03 05:19:02,617:processing per sample fasta files
+INFO(138372505298752)2026-04-03 05:19:02,617:--------------------------------------------------------
+INFO(138372505298752)2026-04-03 05:19:02,617:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802200_54_L001_R1_001.fastq.gz
+INFO(139370578302784)2026-04-03 05:19:09,673:529 unique sequences left following deblurring
+INFO(139370578302784)2026-04-03 05:19:09,682:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802192_28_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(139370578302784)2026-04-03 05:19:10,984:finished processing file
+INFO(139370578302784)2026-04-03 05:19:10,993:finished processing per sample fasta files
+INFO(139370578302784)2026-04-03 05:19:10,993:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802192_28_L001_R1_001.fastq.gz finished
+INFO(136422122448704)2026-04-03 05:19:13,252:*************************
+INFO(136422122448704)2026-04-03 05:19:13,252:deblurring started
+WARNING(136422122448704)2026-04-03 05:19:13,253:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802214_29_L001_R1_001.fastq.gz
+WARNING(136422122448704)2026-04-03 05:19:13,253:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802214_29_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(136422122448704)2026-04-03 05:19:13,253:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(136422122448704)2026-04-03 05:19:13,253:deblur worker thread started
+INFO(136422122448704)2026-04-03 05:19:13,253:processing per sample fasta files
+INFO(136422122448704)2026-04-03 05:19:13,253:--------------------------------------------------------
+INFO(136422122448704)2026-04-03 05:19:13,253:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802214_29_L001_R1_001.fastq.gz
+INFO(126232569014080)2026-04-03 05:19:19,443:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802224_25_L001_R1_001.fastq.gz.trim
+INFO(126232569014080)2026-04-03 05:19:20,112:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802224_25_L001_R1_001.fastq.gz.trim.derep
+INFO(126232569014080)2026-04-03 05:19:21,315:total sequences 5455, passing sequences 5455, failing sequences 0
+INFO(126232569014080)2026-04-03 05:19:21,315:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802224_25_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138123109009216)2026-04-03 05:20:03,860:deblurring 7084 sequences
+INFO(136422122448704)2026-04-03 05:20:11,824:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802214_29_L001_R1_001.fastq.gz.trim
+INFO(138372505298752)2026-04-03 05:20:12,383:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802200_54_L001_R1_001.fastq.gz.trim
+INFO(136422122448704)2026-04-03 05:20:12,516:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802214_29_L001_R1_001.fastq.gz.trim.derep
+INFO(138372505298752)2026-04-03 05:20:13,075:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802200_54_L001_R1_001.fastq.gz.trim.derep
+INFO(136422122448704)2026-04-03 05:20:13,576:total sequences 4722, passing sequences 4722, failing sequences 0
+INFO(136422122448704)2026-04-03 05:20:13,576:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802214_29_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138372505298752)2026-04-03 05:20:14,182:total sequences 5725, passing sequences 5725, failing sequences 0
+INFO(138372505298752)2026-04-03 05:20:14,183:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802200_54_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138123109009216)2026-04-03 05:20:14,605:443 unique sequences left following deblurring
+INFO(138123109009216)2026-04-03 05:20:14,616:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802220_21_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(138123109009216)2026-04-03 05:20:15,251:finished processing file
+INFO(138123109009216)2026-04-03 05:20:15,255:finished processing per sample fasta files
+INFO(138123109009216)2026-04-03 05:20:15,256:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802220_21_L001_R1_001.fastq.gz finished
+INFO(133774150285120)2026-04-03 05:20:17,629:*************************
+INFO(133774150285120)2026-04-03 05:20:17,629:deblurring started
+WARNING(133774150285120)2026-04-03 05:20:17,631:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802226_50_L001_R1_001.fastq.gz
+WARNING(133774150285120)2026-04-03 05:20:17,632:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802226_50_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133774150285120)2026-04-03 05:20:17,633:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133774150285120)2026-04-03 05:20:17,633:deblur worker thread started
+INFO(133774150285120)2026-04-03 05:20:17,634:processing per sample fasta files
+INFO(133774150285120)2026-04-03 05:20:17,634:--------------------------------------------------------
+INFO(133774150285120)2026-04-03 05:20:17,634:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802226_50_L001_R1_001.fastq.gz
+INFO(126232569014080)2026-04-03 05:20:39,389:deblurring 5455 sequences
+INFO(126232569014080)2026-04-03 05:20:47,105:354 unique sequences left following deblurring
+INFO(126232569014080)2026-04-03 05:20:47,117:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802224_25_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(126232569014080)2026-04-03 05:20:47,717:finished processing file
+INFO(126232569014080)2026-04-03 05:20:47,720:finished processing per sample fasta files
+INFO(126232569014080)2026-04-03 05:20:47,720:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802224_25_L001_R1_001.fastq.gz finished
+INFO(135026198771520)2026-04-03 05:20:49,839:*************************
+INFO(135026198771520)2026-04-03 05:20:49,840:deblurring started
+WARNING(135026198771520)2026-04-03 05:20:49,840:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802219_12_L001_R1_001.fastq.gz
+WARNING(135026198771520)2026-04-03 05:20:49,840:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802219_12_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(135026198771520)2026-04-03 05:20:49,841:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(135026198771520)2026-04-03 05:20:49,841:deblur worker thread started
+INFO(135026198771520)2026-04-03 05:20:49,841:processing per sample fasta files
+INFO(135026198771520)2026-04-03 05:20:49,841:--------------------------------------------------------
+INFO(135026198771520)2026-04-03 05:20:49,841:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802219_12_L001_R1_001.fastq.gz
+INFO(136422122448704)2026-04-03 05:21:14,979:deblurring 4722 sequences
+INFO(133774150285120)2026-04-03 05:21:16,410:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802226_50_L001_R1_001.fastq.gz.trim
+INFO(133774150285120)2026-04-03 05:21:17,061:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802226_50_L001_R1_001.fastq.gz.trim.derep
+INFO(133774150285120)2026-04-03 05:21:18,323:total sequences 5084, passing sequences 5084, failing sequences 0
+INFO(133774150285120)2026-04-03 05:21:18,323:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802226_50_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(136422122448704)2026-04-03 05:21:22,942:438 unique sequences left following deblurring
+INFO(136422122448704)2026-04-03 05:21:22,950:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802214_29_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(136422122448704)2026-04-03 05:21:23,738:finished processing file
+INFO(136422122448704)2026-04-03 05:21:23,740:finished processing per sample fasta files
+INFO(136422122448704)2026-04-03 05:21:23,740:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802214_29_L001_R1_001.fastq.gz finished
+INFO(135026198771520)2026-04-03 05:21:28,269:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802219_12_L001_R1_001.fastq.gz.trim
+INFO(135026198771520)2026-04-03 05:21:28,609:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802219_12_L001_R1_001.fastq.gz.trim.derep
+INFO(135026198771520)2026-04-03 05:21:29,577:total sequences 3232, passing sequences 3232, failing sequences 0
+INFO(135026198771520)2026-04-03 05:21:29,577:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802219_12_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(138372505298752)2026-04-03 05:21:39,311:deblurring 5725 sequences
+INFO(138372505298752)2026-04-03 05:21:49,521:710 unique sequences left following deblurring
+INFO(138372505298752)2026-04-03 05:21:49,527:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802200_54_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(138372505298752)2026-04-03 05:21:50,372:finished processing file
+INFO(138372505298752)2026-04-03 05:21:50,378:finished processing per sample fasta files
+INFO(138372505298752)2026-04-03 05:21:50,378:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802200_54_L001_R1_001.fastq.gz finished
+INFO(133751008851776)2026-04-03 05:21:52,027:*************************
+INFO(133751008851776)2026-04-03 05:21:52,027:deblurring started
+WARNING(133751008851776)2026-04-03 05:21:52,028:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802223_22_L001_R1_001.fastq.gz
+WARNING(133751008851776)2026-04-03 05:21:52,028:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802223_22_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(133751008851776)2026-04-03 05:21:52,029:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(133751008851776)2026-04-03 05:21:52,029:deblur worker thread started
+INFO(133751008851776)2026-04-03 05:21:52,029:processing per sample fasta files
+INFO(133751008851776)2026-04-03 05:21:52,029:--------------------------------------------------------
+INFO(133751008851776)2026-04-03 05:21:52,029:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802223_22_L001_R1_001.fastq.gz
+INFO(135026198771520)2026-04-03 05:21:54,892:deblurring 3232 sequences
+INFO(135026198771520)2026-04-03 05:21:57,356:297 unique sequences left following deblurring
+INFO(135026198771520)2026-04-03 05:21:57,359:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802219_12_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(135026198771520)2026-04-03 05:21:57,756:finished processing file
+INFO(135026198771520)2026-04-03 05:21:57,767:finished processing per sample fasta files
+INFO(135026198771520)2026-04-03 05:21:57,768:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802219_12_L001_R1_001.fastq.gz finished
+INFO(137356207712064)2026-04-03 05:21:59,406:*************************
+INFO(137356207712064)2026-04-03 05:21:59,406:deblurring started
+WARNING(137356207712064)2026-04-03 05:21:59,406:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802239_24_L001_R1_001.fastq.gz
+WARNING(137356207712064)2026-04-03 05:21:59,407:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802239_24_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(137356207712064)2026-04-03 05:21:59,407:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(137356207712064)2026-04-03 05:21:59,407:deblur worker thread started
+INFO(137356207712064)2026-04-03 05:21:59,407:processing per sample fasta files
+INFO(137356207712064)2026-04-03 05:21:59,407:--------------------------------------------------------
+INFO(137356207712064)2026-04-03 05:21:59,407:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802239_24_L001_R1_001.fastq.gz
+INFO(133774150285120)2026-04-03 05:22:13,497:deblurring 5084 sequences
+INFO(133774150285120)2026-04-03 05:22:17,635:322 unique sequences left following deblurring
+INFO(133774150285120)2026-04-03 05:22:17,642:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802226_50_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(133774150285120)2026-04-03 05:22:18,051:finished processing file
+INFO(133774150285120)2026-04-03 05:22:18,053:finished processing per sample fasta files
+INFO(133774150285120)2026-04-03 05:22:18,054:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802226_50_L001_R1_001.fastq.gz finished
+INFO(131089734219584)2026-04-03 05:22:19,958:*************************
+INFO(131089734219584)2026-04-03 05:22:19,958:deblurring started
+WARNING(131089734219584)2026-04-03 05:22:19,958:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802232_44_L001_R1_001.fastq.gz
+WARNING(131089734219584)2026-04-03 05:22:19,961:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802232_44_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(131089734219584)2026-04-03 05:22:19,961:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(131089734219584)2026-04-03 05:22:19,962:deblur worker thread started
+INFO(131089734219584)2026-04-03 05:22:19,962:processing per sample fasta files
+INFO(131089734219584)2026-04-03 05:22:19,962:--------------------------------------------------------
+INFO(131089734219584)2026-04-03 05:22:19,962:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802232_44_L001_R1_001.fastq.gz
+INFO(133751008851776)2026-04-03 05:22:28,783:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802223_22_L001_R1_001.fastq.gz.trim
+INFO(133751008851776)2026-04-03 05:22:29,192:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802223_22_L001_R1_001.fastq.gz.trim.derep
+INFO(133751008851776)2026-04-03 05:22:30,113:total sequences 4188, passing sequences 4188, failing sequences 0
+INFO(133751008851776)2026-04-03 05:22:30,113:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802223_22_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137356207712064)2026-04-03 05:22:53,183:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802239_24_L001_R1_001.fastq.gz.trim
+INFO(131089734219584)2026-04-03 05:22:53,496:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802232_44_L001_R1_001.fastq.gz.trim
+INFO(137356207712064)2026-04-03 05:22:53,671:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802239_24_L001_R1_001.fastq.gz.trim.derep
+INFO(131089734219584)2026-04-03 05:22:53,768:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802232_44_L001_R1_001.fastq.gz.trim.derep
+INFO(131089734219584)2026-04-03 05:22:54,639:total sequences 3717, passing sequences 3717, failing sequences 0
+INFO(131089734219584)2026-04-03 05:22:54,639:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802232_44_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137356207712064)2026-04-03 05:22:54,649:total sequences 6480, passing sequences 6480, failing sequences 0
+INFO(137356207712064)2026-04-03 05:22:54,649:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802239_24_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(133751008851776)2026-04-03 05:23:04,958:deblurring 4188 sequences
+INFO(133751008851776)2026-04-03 05:23:08,749:374 unique sequences left following deblurring
+INFO(133751008851776)2026-04-03 05:23:08,757:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802223_22_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(133751008851776)2026-04-03 05:23:09,193:finished processing file
+INFO(133751008851776)2026-04-03 05:23:09,195:finished processing per sample fasta files
+INFO(133751008851776)2026-04-03 05:23:09,195:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802223_22_L001_R1_001.fastq.gz finished
+INFO(123236319098688)2026-04-03 05:23:10,835:*************************
+INFO(123236319098688)2026-04-03 05:23:10,835:deblurring started
+WARNING(123236319098688)2026-04-03 05:23:10,836:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802204_52_L001_R1_001.fastq.gz
+WARNING(123236319098688)2026-04-03 05:23:10,836:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802204_52_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(123236319098688)2026-04-03 05:23:10,836:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(123236319098688)2026-04-03 05:23:10,836:deblur worker thread started
+INFO(123236319098688)2026-04-03 05:23:10,836:processing per sample fasta files
+INFO(123236319098688)2026-04-03 05:23:10,836:--------------------------------------------------------
+INFO(123236319098688)2026-04-03 05:23:10,836:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802204_52_L001_R1_001.fastq.gz
+INFO(131089734219584)2026-04-03 05:23:23,499:deblurring 3717 sequences
+INFO(131089734219584)2026-04-03 05:23:24,960:176 unique sequences left following deblurring
+INFO(131089734219584)2026-04-03 05:23:24,962:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802232_44_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(131089734219584)2026-04-03 05:23:25,186:finished processing file
+INFO(131089734219584)2026-04-03 05:23:25,188:finished processing per sample fasta files
+INFO(131089734219584)2026-04-03 05:23:25,188:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802232_44_L001_R1_001.fastq.gz finished
+INFO(139219905013568)2026-04-03 05:23:26,798:*************************
+INFO(139219905013568)2026-04-03 05:23:26,798:deblurring started
+WARNING(139219905013568)2026-04-03 05:23:26,799:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802237_30_L001_R1_001.fastq.gz
+WARNING(139219905013568)2026-04-03 05:23:26,801:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802237_30_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(139219905013568)2026-04-03 05:23:26,802:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(139219905013568)2026-04-03 05:23:26,802:deblur worker thread started
+INFO(139219905013568)2026-04-03 05:23:26,802:processing per sample fasta files
+INFO(139219905013568)2026-04-03 05:23:26,802:--------------------------------------------------------
+INFO(139219905013568)2026-04-03 05:23:26,802:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802237_30_L001_R1_001.fastq.gz
+INFO(123236319098688)2026-04-03 05:23:53,322:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802204_52_L001_R1_001.fastq.gz.trim
+INFO(123236319098688)2026-04-03 05:23:53,740:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802204_52_L001_R1_001.fastq.gz.trim.derep
+INFO(123236319098688)2026-04-03 05:23:54,698:total sequences 4842, passing sequences 4842, failing sequences 0
+INFO(123236319098688)2026-04-03 05:23:54,698:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802204_52_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137356207712064)2026-04-03 05:24:15,474:deblurring 6480 sequences
+INFO(139219905013568)2026-04-03 05:24:16,570:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802237_30_L001_R1_001.fastq.gz.trim
+INFO(139219905013568)2026-04-03 05:24:17,110:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802237_30_L001_R1_001.fastq.gz.trim.derep
+INFO(139219905013568)2026-04-03 05:24:18,211:total sequences 6399, passing sequences 6399, failing sequences 0
+INFO(139219905013568)2026-04-03 05:24:18,211:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802237_30_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(137356207712064)2026-04-03 05:24:23,283:481 unique sequences left following deblurring
+INFO(137356207712064)2026-04-03 05:24:23,289:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802239_24_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(137356207712064)2026-04-03 05:24:23,886:finished processing file
+INFO(137356207712064)2026-04-03 05:24:23,889:finished processing per sample fasta files
+INFO(137356207712064)2026-04-03 05:24:23,889:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802239_24_L001_R1_001.fastq.gz finished
+INFO(125294225282880)2026-04-03 05:24:25,398:*************************
+INFO(125294225282880)2026-04-03 05:24:25,398:deblurring started
+WARNING(125294225282880)2026-04-03 05:24:25,398:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802197_8_L001_R1_001.fastq.gz
+WARNING(125294225282880)2026-04-03 05:24:25,399:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802197_8_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(125294225282880)2026-04-03 05:24:25,399:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(125294225282880)2026-04-03 05:24:25,399:deblur worker thread started
+INFO(125294225282880)2026-04-03 05:24:25,399:processing per sample fasta files
+INFO(125294225282880)2026-04-03 05:24:25,399:--------------------------------------------------------
+INFO(125294225282880)2026-04-03 05:24:25,399:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802197_8_L001_R1_001.fastq.gz
+INFO(123236319098688)2026-04-03 05:24:47,516:deblurring 4842 sequences
+INFO(123236319098688)2026-04-03 05:24:52,448:387 unique sequences left following deblurring
+INFO(123236319098688)2026-04-03 05:24:52,455:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802204_52_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(123236319098688)2026-04-03 05:24:52,870:finished processing file
+INFO(123236319098688)2026-04-03 05:24:52,873:finished processing per sample fasta files
+INFO(123236319098688)2026-04-03 05:24:52,874:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802204_52_L001_R1_001.fastq.gz finished
+INFO(127366817752896)2026-04-03 05:24:54,239:*************************
+INFO(127366817752896)2026-04-03 05:24:54,239:deblurring started
+WARNING(127366817752896)2026-04-03 05:24:54,240:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802217_6_L001_R1_001.fastq.gz
+WARNING(127366817752896)2026-04-03 05:24:54,241:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802217_6_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(127366817752896)2026-04-03 05:24:54,241:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(127366817752896)2026-04-03 05:24:54,241:deblur worker thread started
+INFO(127366817752896)2026-04-03 05:24:54,241:processing per sample fasta files
+INFO(127366817752896)2026-04-03 05:24:54,241:--------------------------------------------------------
+INFO(127366817752896)2026-04-03 05:24:54,241:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802217_6_L001_R1_001.fastq.gz
+INFO(125294225282880)2026-04-03 05:25:04,119:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802197_8_L001_R1_001.fastq.gz.trim
+INFO(125294225282880)2026-04-03 05:25:04,403:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802197_8_L001_R1_001.fastq.gz.trim.derep
+INFO(125294225282880)2026-04-03 05:25:05,121:total sequences 3928, passing sequences 3928, failing sequences 0
+INFO(125294225282880)2026-04-03 05:25:05,121:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802197_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(127366817752896)2026-04-03 05:25:22,234:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802217_6_L001_R1_001.fastq.gz.trim
+INFO(127366817752896)2026-04-03 05:25:22,564:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802217_6_L001_R1_001.fastq.gz.trim.derep
+INFO(127366817752896)2026-04-03 05:25:23,307:total sequences 3991, passing sequences 3991, failing sequences 0
+INFO(127366817752896)2026-04-03 05:25:23,307:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802217_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(139219905013568)2026-04-03 05:25:32,029:deblurring 6399 sequences
+INFO(139219905013568)2026-04-03 05:25:40,744:406 unique sequences left following deblurring
+INFO(139219905013568)2026-04-03 05:25:40,755:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802237_30_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(125294225282880)2026-04-03 05:25:40,904:deblurring 3928 sequences
+INFO(139219905013568)2026-04-03 05:25:41,332:finished processing file
+INFO(139219905013568)2026-04-03 05:25:41,335:finished processing per sample fasta files
+INFO(139219905013568)2026-04-03 05:25:41,336:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802237_30_L001_R1_001.fastq.gz finished
+INFO(125294225282880)2026-04-03 05:25:43,392:207 unique sequences left following deblurring
+INFO(125294225282880)2026-04-03 05:25:43,395:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802197_8_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(125294225282880)2026-04-03 05:25:43,636:finished processing file
+INFO(125294225282880)2026-04-03 05:25:43,638:finished processing per sample fasta files
+INFO(125294225282880)2026-04-03 05:25:43,638:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802197_8_L001_R1_001.fastq.gz finished
+INFO(130228963858240)2026-04-03 05:25:45,150:*************************
+INFO(130228963858240)2026-04-03 05:25:45,150:deblurring started
+WARNING(130228963858240)2026-04-03 05:25:45,151:deblur version 1.1.1 workflow started on /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802206_2_L001_R1_001.fastq.gz
+WARNING(130228963858240)2026-04-03 05:25:45,151:parameters: {'seqs_fp': '/tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802206_2_L001_R1_001.fastq.gz', 'output_dir': '/tmp/tmp_r23w29x', 'pos_ref_fp': (), 'pos_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/88_otus',), 'neg_ref_fp': (), 'neg_ref_db_fp': ('/tmp/tmp_r23w29x/deblur_working_dir/artifacts',), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 240, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/swaroop/oral_microbiome/dada2_output/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': True, 'logger': <Logger __main__ (INFO)>}
+INFO(130228963858240)2026-04-03 05:25:45,151:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(130228963858240)2026-04-03 05:25:45,151:deblur worker thread started
+INFO(130228963858240)2026-04-03 05:25:45,151:processing per sample fasta files
+INFO(130228963858240)2026-04-03 05:25:45,151:--------------------------------------------------------
+INFO(130228963858240)2026-04-03 05:25:45,151:launch_workflow for file /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802206_2_L001_R1_001.fastq.gz
+INFO(127366817752896)2026-04-03 05:26:00,682:deblurring 3991 sequences
+INFO(127366817752896)2026-04-03 05:26:04,332:514 unique sequences left following deblurring
+INFO(127366817752896)2026-04-03 05:26:04,338:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802217_6_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(127366817752896)2026-04-03 05:26:04,841:finished processing file
+INFO(127366817752896)2026-04-03 05:26:04,843:finished processing per sample fasta files
+INFO(127366817752896)2026-04-03 05:26:04,844:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802217_6_L001_R1_001.fastq.gz finished
+INFO(130228963858240)2026-04-03 05:26:11,056:dereplicate seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802206_2_L001_R1_001.fastq.gz.trim
+INFO(130228963858240)2026-04-03 05:26:11,236:remove_artifacts_seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802206_2_L001_R1_001.fastq.gz.trim.derep
+INFO(130228963858240)2026-04-03 05:26:11,710:total sequences 3750, passing sequences 3750, failing sequences 0
+INFO(130228963858240)2026-04-03 05:26:11,711:multiple_sequence_alignment seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802206_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(130228963858240)2026-04-03 05:26:28,258:deblurring 3750 sequences
+INFO(130228963858240)2026-04-03 05:26:29,477:265 unique sequences left following deblurring
+INFO(130228963858240)2026-04-03 05:26:29,479:remove_chimeras_denovo_from_seqs seqs file /tmp/tmp_r23w29x/deblur_working_dir/SRR32802206_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmp_r23w29x/deblur_working_dir
+INFO(130228963858240)2026-04-03 05:26:29,683:finished processing file
+INFO(130228963858240)2026-04-03 05:26:29,684:finished processing per sample fasta files
+INFO(130228963858240)2026-04-03 05:26:29,684:worker thread for /tmp/q2-SingleLanePerSampleSingleEndFastqDirFmt-2he4uaim/SRR32802206_2_L001_R1_001.fastq.gz finished
+INFO(140325113427776)2026-04-03 05:26:29,878:create_otu_table for 60 samples, into output table /tmp/tmp_r23w29x/all.biom
+INFO(140325113427776)2026-04-03 05:26:30,423:for output biom table loaded 60 samples, 4833 unique sequences
+INFO(140325113427776)2026-04-03 05:26:30,436:keeping 2230 (out of 4833 sequences) with >=10 reads
+INFO(140325113427776)2026-04-03 05:26:30,594:saved to biom file /tmp/tmp_r23w29x/all.biom
+INFO(140325113427776)2026-04-03 05:26:30,598:saved sequence fasta file to /tmp/tmp_r23w29x/all.seqs.fa
+INFO(140325113427776)2026-04-03 05:26:30,601:getting 16s sequences from the biom table
+INFO(140325113427776)2026-04-03 05:26:30,601:remove_artifacts_seqs file /tmp/tmp_r23w29x/all.seqs.fa
+INFO(140325113427776)2026-04-03 05:26:37,143:total sequences 2230, passing sequences 2230, failing sequences 0
+WARNING(140325113427776)2026-04-03 05:26:37,207:removed 60 samples with reads per sample<1
+INFO(140325113427776)2026-04-03 05:26:37,212:wrote artifact only filtered biom table to /tmp/tmp_r23w29x/reference-non-hit.biom
+INFO(140325113427776)2026-04-03 05:26:37,212:saved biom table sequences to fasta file /tmp/tmp_r23w29x/reference-non-hit.seqs.fa
+INFO(140325113427776)2026-04-03 05:26:37,240:wrote 16s filtered biom table to /tmp/tmp_r23w29x/reference-hit.biom
+INFO(140325113427776)2026-04-03 05:26:37,245:saved biom table sequences to fasta file /tmp/tmp_r23w29x/reference-hit.seqs.fa
+INFO(140325113427776)2026-04-03 05:26:37,245:Keeping temp files
+INFO(140325113427776)2026-04-03 05:26:37,246:deblur workflow finished
+INFO(140325113427776)2026-04-03 05:26:37,246:output saved to /tmp/tmp_r23w29x/all.biom
+INFO(140325113427776)2026-04-03 05:26:37,246:------------------

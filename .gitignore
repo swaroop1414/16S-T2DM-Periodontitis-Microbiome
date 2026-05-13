@@ -5,10 +5,10 @@ data/raw/*.fastq
 # Trimmed fastq files
 qiime2/demux/trimmed_export/*.fastq.gz
 
-# SILVA classifier (too large)
+# SILVA classifier 
 qiime2/taxonomy/silva-138-99-nb-classifier.qza
 
-# Large QIIME2 artifacts (keep .qzv visualizations)
+# Large QIIME2 artifacts 
 qiime2/demux/paired_end_demux.qza
 qiime2/demux/trimmed_demux.qza
 
